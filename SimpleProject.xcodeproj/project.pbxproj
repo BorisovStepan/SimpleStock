@@ -7,9 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2014AD04E1419826B4500958 /* Pods_SimpleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935493BFD8C0F3181D46CAAD /* Pods_SimpleProject.framework */; };
 		C388B3F92B8E34B500488032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3F82B8E34B500488032 /* AppDelegate.swift */; };
 		C388B3FB2B8E34B500488032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3FA2B8E34B500488032 /* SceneDelegate.swift */; };
-		C388B3FD2B8E34B500488032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3FC2B8E34B500488032 /* ViewController.swift */; };
+		C388B3FD2B8E34B500488032 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3FC2B8E34B500488032 /* MainViewController.swift */; };
 		C388B4002B8E34B500488032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C388B3FE2B8E34B500488032 /* Main.storyboard */; };
 		C388B4032B8E34B500488032 /* SimpleProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C388B4012B8E34B500488032 /* SimpleProject.xcdatamodeld */; };
 		C388B4052B8E34B600488032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C388B4042B8E34B600488032 /* Assets.xcassets */; };
@@ -17,15 +18,18 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6FB4B558AC956E86C0A13E45 /* Pods-SimpleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleProject.release.xcconfig"; path = "Target Support Files/Pods-SimpleProject/Pods-SimpleProject.release.xcconfig"; sourceTree = "<group>"; };
+		935493BFD8C0F3181D46CAAD /* Pods_SimpleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C388B3F52B8E34B500488032 /* SimpleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C388B3F82B8E34B500488032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C388B3FA2B8E34B500488032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C388B3FC2B8E34B500488032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C388B3FC2B8E34B500488032 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C388B3FF2B8E34B500488032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C388B4022B8E34B500488032 /* SimpleProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleProject.xcdatamodel; sourceTree = "<group>"; };
 		C388B4042B8E34B600488032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C388B4072B8E34B600488032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C388B4092B8E34B600488032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A62F701D45CCA1F744E6AD /* Pods-SimpleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleProject.debug.xcconfig"; path = "Target Support Files/Pods-SimpleProject/Pods-SimpleProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2014AD04E1419826B4500958 /* Pods_SimpleProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58B3F94F6F47F4E582573F17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				935493BFD8C0F3181D46CAAD /* Pods_SimpleProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91CCE0DC4570BD04933AC8BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7A62F701D45CCA1F744E6AD /* Pods-SimpleProject.debug.xcconfig */,
+				6FB4B558AC956E86C0A13E45 /* Pods-SimpleProject.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C388B3EC2B8E34B500488032 = {
 			isa = PBXGroup;
 			children = (
 				C388B3F72B8E34B500488032 /* SimpleProject */,
 				C388B3F62B8E34B500488032 /* Products */,
+				91CCE0DC4570BD04933AC8BE /* Pods */,
+				58B3F94F6F47F4E582573F17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,7 +85,7 @@
 			children = (
 				C388B3F82B8E34B500488032 /* AppDelegate.swift */,
 				C388B3FA2B8E34B500488032 /* SceneDelegate.swift */,
-				C388B3FC2B8E34B500488032 /* ViewController.swift */,
+				C388B3FC2B8E34B500488032 /* MainViewController.swift */,
 				C388B3FE2B8E34B500488032 /* Main.storyboard */,
 				C388B4042B8E34B600488032 /* Assets.xcassets */,
 				C388B4062B8E34B600488032 /* LaunchScreen.storyboard */,
@@ -77,6 +102,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C388B40C2B8E34B600488032 /* Build configuration list for PBXNativeTarget "SimpleProject" */;
 			buildPhases = (
+				ED156AF3709B1194857A0977 /* [CP] Check Pods Manifest.lock */,
 				C388B3F12B8E34B500488032 /* Sources */,
 				C388B3F22B8E34B500488032 /* Frameworks */,
 				C388B3F32B8E34B500488032 /* Resources */,
@@ -136,12 +162,37 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ED156AF3709B1194857A0977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C388B3F12B8E34B500488032 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C388B3FD2B8E34B500488032 /* ViewController.swift in Sources */,
+				C388B3FD2B8E34B500488032 /* MainViewController.swift in Sources */,
 				C388B3F92B8E34B500488032 /* AppDelegate.swift in Sources */,
 				C388B3FB2B8E34B500488032 /* SceneDelegate.swift in Sources */,
 				C388B4032B8E34B500488032 /* SimpleProject.xcdatamodeld in Sources */,
@@ -286,6 +337,7 @@
 		};
 		C388B40D2B8E34B600488032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A62F701D45CCA1F744E6AD /* Pods-SimpleProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -313,6 +365,7 @@
 		};
 		C388B40E2B8E34B600488032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB4B558AC956E86C0A13E45 /* Pods-SimpleProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

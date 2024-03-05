@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2014AD04E1419826B4500958 /* Pods_SimpleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935493BFD8C0F3181D46CAAD /* Pods_SimpleProject.framework */; };
+		C38569202B977DD70008DF96 /* NewsURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385691F2B977DD70008DF96 /* NewsURLRequest.swift */; };
+		C38569222B977E600008DF96 /* StructNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38569212B977E600008DF96 /* StructNews.swift */; };
 		C388B3F92B8E34B500488032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3F82B8E34B500488032 /* AppDelegate.swift */; };
 		C388B3FB2B8E34B500488032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3FA2B8E34B500488032 /* SceneDelegate.swift */; };
 		C388B3FD2B8E34B500488032 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3FC2B8E34B500488032 /* MainViewController.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		6FB4B558AC956E86C0A13E45 /* Pods-SimpleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleProject.release.xcconfig"; path = "Target Support Files/Pods-SimpleProject/Pods-SimpleProject.release.xcconfig"; sourceTree = "<group>"; };
 		935493BFD8C0F3181D46CAAD /* Pods_SimpleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C385691F2B977DD70008DF96 /* NewsURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsURLRequest.swift; sourceTree = "<group>"; };
+		C38569212B977E600008DF96 /* StructNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructNews.swift; sourceTree = "<group>"; };
 		C388B3F52B8E34B500488032 /* SimpleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C388B3F82B8E34B500488032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C388B3FA2B8E34B500488032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -58,13 +62,22 @@
 				C7A62F701D45CCA1F744E6AD /* Pods-SimpleProject.debug.xcconfig */,
 				6FB4B558AC956E86C0A13E45 /* Pods-SimpleProject.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		C385691E2B977DB70008DF96 /* URLService */ = {
+			isa = PBXGroup;
+			children = (
+				C385691F2B977DD70008DF96 /* NewsURLRequest.swift */,
+				C38569212B977E600008DF96 /* StructNews.swift */,
+			);
+			path = URLService;
 			sourceTree = "<group>";
 		};
 		C388B3EC2B8E34B500488032 = {
 			isa = PBXGroup;
 			children = (
+				C385691E2B977DB70008DF96 /* URLService */,
 				C388B3F72B8E34B500488032 /* SimpleProject */,
 				C388B3F62B8E34B500488032 /* Products */,
 				91CCE0DC4570BD04933AC8BE /* Pods */,
@@ -192,10 +205,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C38569202B977DD70008DF96 /* NewsURLRequest.swift in Sources */,
 				C388B3FD2B8E34B500488032 /* MainViewController.swift in Sources */,
 				C388B3F92B8E34B500488032 /* AppDelegate.swift in Sources */,
 				C388B3FB2B8E34B500488032 /* SceneDelegate.swift in Sources */,
 				C388B4032B8E34B500488032 /* SimpleProject.xcdatamodeld in Sources */,
+				C38569222B977E600008DF96 /* StructNews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

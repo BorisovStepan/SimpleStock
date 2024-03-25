@@ -1,8 +1,6 @@
-//
-//  MarketModel.swift
-//  SimpleProject
-//
-//  Created by Stepan Borisov on 14.03.24.
-//
-
 import Foundation
+
+struct MarketModel {
+    let t: String
+    let c, o, vw: Double
+}

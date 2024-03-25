@@ -10,5 +10,6 @@ struct Results: Decodable {
     let title: String
     let author: String
     let id: String
+    let description: String?
     let article_url: String
 }

@@ -1,24 +1,12 @@
-import Foundation
 
 import Foundation
+final class StockNetworkService {
+    var date: String?
+    var stock: String?
 
-final class MarketNetworkService {
-    
-     func currentDate() -> String {
-        let currentDate = Date()
-        let calendar = Calendar.current
-        if let yesterday = calendar.date(byAdding: .day, value: -3, to: currentDate) {
-            let dateFormatter = DateFormatter()
-            dateFormatter.dateFormat = "yyyy-MM-dd"
-            let formattedYesterday = dateFormatter.string(from: yesterday)
-            return formattedYesterday
-        } else {
-            return "Cant recive Date"
-        }
-    }
     
     func loadData(completion: @escaping([MarketModel]) -> ()) {
-        guard let url = URL(string: "https://api.polygon.io/v2/aggs/grouped/locale/us/market/stocks/\(currentDate())?adjusted=true&apiKey=qBLt0ai9OAXWTBSZpcudvIyjvoFzKZtK") else { return }
+        guard let url = URL(string: "https://api.polygon.io/v3/reference/tickers/\(stock)?date=\(date)&apiKey=qBLt0ai9OAXWTBSZpcudvIyjvoFzKZtK") else { return }
         print(url)
         var request = URLRequest(url: url)
         request.httpMethod = "GET"

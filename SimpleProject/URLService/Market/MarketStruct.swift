@@ -1,8 +1,13 @@
-//
-//  MarketStruct.swift
-//  SimpleProject
-//
-//  Created by Stepan Borisov on 14.03.24.
-//
 
 import Foundation
+
+struct Market: Decodable {
+    let results: [Result]
+    let count: Int
+}
+
+struct Result: Decodable {
+    let T: String?
+    let c, o, vw: Double?
+
+}

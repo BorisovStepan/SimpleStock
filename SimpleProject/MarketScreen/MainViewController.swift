@@ -3,12 +3,15 @@ import UIKit
 class MainViewController: UIViewController {
     
     @IBOutlet weak var tableMarket: UITableView!
+    
+    @IBOutlet weak var searchBar: UISearchBar!
     private let network = MarketNetworkService()
     var marketModel = MarketViewModel()
     let activityIndicator = UIActivityIndicatorView(style: .large)
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        searchBar.delegate = self
         animation()
         marketModel.load()
         marketModel.marketDidChange = {
@@ -26,6 +29,7 @@ class MainViewController: UIViewController {
         view.addSubview(activityIndicator)
         activityIndicator.startAnimating()
     }
+    
 }
 
 extension MainViewController: UITableViewDataSource {
@@ -46,8 +50,8 @@ extension MainViewController: UITableViewDelegate {
         tableView.deselectRow(at: indexPath, animated: true)
         let stock = marketModel.market[indexPath.row]
         if let stockVC = UIStoryboard(name: "Stock", bundle: nil).instantiateViewController(withIdentifier: "stock") as? StockViewController {
-            stockVC.stock = stock.t
-            stockVC.date = network.currentDate()
+            stockVC.stockModel.stock  = stock.t
+            stockVC.stockModel.date = network.currentDate()
             present(stockVC, animated: true)
         }
     }
@@ -55,4 +59,7 @@ extension MainViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
     }
+}
+extension MainViewController: UISearchBarDelegate {
+    
 }

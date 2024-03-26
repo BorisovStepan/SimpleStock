@@ -1,13 +1,13 @@
 
 import Foundation
 
-struct Main {
-    let results: Resultat
+struct StockInfo: Decodable {
+    let results: ResultsStock
 }
 
-struct Resultat {
-    let ticker: String
-    let name: String
-    let description: String
+struct ResultsStock: Decodable {
+    let ticker: String?
+    let name: String?
+    let description: String?
 }
 

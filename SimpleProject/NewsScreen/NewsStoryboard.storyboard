@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,6 +21,19 @@
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="1" id="ylt-LE-7jh"/>
+                                </constraints>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOu-LS-sRL">
+                                <rect key="frame" x="0.0" y="69" width="393" height="20"/>
+                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uQb-Y8-AaJ">
+                                <rect key="frame" x="0.0" y="99" width="393" height="1"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="qnx-t2-iKA"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="VO1-GG-UCj">
@@ -74,12 +88,6 @@
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="News" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HOu-LS-sRL">
-                                <rect key="frame" x="0.0" y="69" width="393" height="20"/>
-                                <fontDescription key="fontDescription" name="Rockwell-Regular" family="Rockwell" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Qvd-jp-YyA"/>
                         <color key="backgroundColor" red="0.05568605661" green="0.080775074660000001" blue="0.20378747580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -88,10 +96,13 @@
                             <constraint firstItem="HOu-LS-sRL" firstAttribute="leading" secondItem="Qvd-jp-YyA" secondAttribute="leading" id="052-aq-bJc"/>
                             <constraint firstItem="HOu-LS-sRL" firstAttribute="top" secondItem="Qvd-jp-YyA" secondAttribute="top" constant="10" id="2DI-zO-zcd"/>
                             <constraint firstItem="Qvd-jp-YyA" firstAttribute="trailing" secondItem="HOu-LS-sRL" secondAttribute="trailing" id="36h-Pm-wIM"/>
+                            <constraint firstItem="uQb-Y8-AaJ" firstAttribute="leading" secondItem="BeO-zj-NlE" secondAttribute="leading" id="IXC-8F-Ygq"/>
                             <constraint firstItem="VO1-GG-UCj" firstAttribute="top" secondItem="HOu-LS-sRL" secondAttribute="bottom" constant="15" id="Ppa-CT-Zmb"/>
                             <constraint firstItem="Qvd-jp-YyA" firstAttribute="trailing" secondItem="VO1-GG-UCj" secondAttribute="trailing" id="Xgq-r2-T2a"/>
                             <constraint firstItem="Qvd-jp-YyA" firstAttribute="trailing" secondItem="mZ0-EX-vY3" secondAttribute="trailing" id="YO5-it-VUP"/>
                             <constraint firstItem="Qvd-jp-YyA" firstAttribute="bottom" secondItem="mZ0-EX-vY3" secondAttribute="bottom" id="bqw-Qa-NYb"/>
+                            <constraint firstAttribute="trailing" secondItem="uQb-Y8-AaJ" secondAttribute="trailing" id="gQn-K3-ogA"/>
+                            <constraint firstItem="uQb-Y8-AaJ" firstAttribute="top" secondItem="HOu-LS-sRL" secondAttribute="bottom" constant="10" id="iVM-Y4-3g8"/>
                             <constraint firstItem="VO1-GG-UCj" firstAttribute="leading" secondItem="Qvd-jp-YyA" secondAttribute="leading" id="qKR-oI-Jrm"/>
                             <constraint firstItem="mZ0-EX-vY3" firstAttribute="top" secondItem="VO1-GG-UCj" secondAttribute="bottom" id="sBr-3N-CUp"/>
                             <constraint firstItem="mZ0-EX-vY3" firstAttribute="leading" secondItem="Qvd-jp-YyA" secondAttribute="leading" id="sUt-sf-eql"/>
@@ -112,5 +123,8 @@
     </scenes>
     <resources>
         <image name="book" catalog="system" width="128" height="99"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
     </resources>
 </document>

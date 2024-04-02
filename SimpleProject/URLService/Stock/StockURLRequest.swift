@@ -30,7 +30,7 @@ class StockNetworkService {
                 if let jsonData = data {
                     do {
                         let newTickers = try JSONDecoder().decode(Price.self, from: jsonData)
-                        let tickers = PriceModel(open: newTickers.open, close: newTickers.close)
+                        let tickers = PriceModel(open: newTickers.open, close: newTickers.close, name: newTickers.symbol)
                         completion(tickers)
                     } catch {
                         print(error.localizedDescription)

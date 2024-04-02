@@ -19,7 +19,6 @@ final class MarketNetworkService {
     
     func loadData(completion: @escaping([MarketModel]) -> ()) {
         guard let url = URL(string: "https://api.polygon.io/v2/aggs/grouped/locale/us/market/stocks/\(currentDate())?adjusted=true&apiKey=qBLt0ai9OAXWTBSZpcudvIyjvoFzKZtK") else { return }
-        print(url)
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         URLSession.shared.dataTask(with: request) { data, response, error  in

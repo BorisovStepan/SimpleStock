@@ -69,6 +69,8 @@
                                                 <constraint firstItem="PZ4-eG-sHa" firstAttribute="centerY" secondItem="1v3-TI-2us" secondAttribute="centerY" id="Kk9-pR-bKU"/>
                                                 <constraint firstItem="N66-o4-GdI" firstAttribute="leading" secondItem="1v3-TI-2us" secondAttribute="leading" constant="31" id="QBJ-NM-CxQ"/>
                                                 <constraint firstAttribute="trailing" secondItem="PZ4-eG-sHa" secondAttribute="trailing" constant="39.666666666666629" id="Y7c-nl-9PM"/>
+                                                <constraint firstItem="KVF-Op-hZS" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="N66-o4-GdI" secondAttribute="trailing" constant="8" symbolic="YES" id="YqM-oQ-bxf"/>
+                                                <constraint firstItem="PZ4-eG-sHa" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="KVF-Op-hZS" secondAttribute="trailing" constant="8" symbolic="YES" id="dAM-UZ-AHU"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.05568605661" green="0.080775074660000001" blue="0.20378747580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -104,11 +106,14 @@
                                 <color key="textColor" systemColor="systemGray3Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="B7L-Xz-80L">
+                            <searchBar alpha="0.80000000000000004" contentMode="redraw" barStyle="black" searchBarStyle="minimal" placeholder="Ticker" translucent="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B7L-Xz-80L">
                                 <rect key="frame" x="0.0" y="104" width="393" height="44"/>
+                                <color key="backgroundColor" red="0.05568605661" green="0.080775074660000001" blue="0.20378747580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="aVM-gE-brR"/>
                                 </constraints>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <connections>
                                     <outlet property="delegate" destination="BYZ-38-t0r" id="cXY-8c-uaS"/>
@@ -119,6 +124,7 @@
                         <color key="backgroundColor" red="0.055686056613922119" green="0.080775074660778046" blue="0.20378747582435608" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="TY0-EY-GAT" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="aKK-Oo-Liy" secondAttribute="trailing" constant="8" symbolic="YES" id="4eZ-vc-zdl"/>
                             <constraint firstItem="H5h-oX-5VK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="15" id="629-in-pm9"/>
                             <constraint firstItem="XsK-IH-eYS" firstAttribute="top" secondItem="nnK-Ma-aDL" secondAttribute="bottom" constant="1" id="7k9-jr-0iO"/>
                             <constraint firstAttribute="trailing" secondItem="VKj-Xu-8Lj" secondAttribute="trailing" id="8a1-PL-tuf"/>
@@ -136,6 +142,7 @@
                             <constraint firstItem="B7L-Xz-80L" firstAttribute="top" secondItem="H5h-oX-5VK" secondAttribute="bottom" constant="10" id="ly4-yR-yfU"/>
                             <constraint firstItem="VKj-Xu-8Lj" firstAttribute="top" secondItem="XsK-IH-eYS" secondAttribute="bottom" id="oLw-uK-Apv"/>
                             <constraint firstItem="nnK-Ma-aDL" firstAttribute="top" secondItem="B7L-Xz-80L" secondAttribute="bottom" constant="10" id="rIl-V9-0WH"/>
+                            <constraint firstItem="aKK-Oo-Liy" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="nnK-Ma-aDL" secondAttribute="trailing" constant="8" symbolic="YES" id="rrp-7a-goz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="TY0-EY-GAT" secondAttribute="trailing" constant="25" id="u1X-6W-4eI"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="H5h-oX-5VK" secondAttribute="trailing" id="vVV-QT-4j1"/>
                         </constraints>

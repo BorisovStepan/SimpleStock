@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		2014AD04E1419826B4500958 /* Pods_SimpleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935493BFD8C0F3181D46CAAD /* Pods_SimpleProject.framework */; };
+		C3174A762BB5CF3F000D0974 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A752BB5CF3F000D0974 /* CoreDataService.swift */; };
+		C3174A7A2BB5D2CC000D0974 /* Stock+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A782BB5D2CC000D0974 /* Stock+CoreDataClass.swift */; };
+		C3174A7B2BB5D2CC000D0974 /* Stock+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A792BB5D2CC000D0974 /* Stock+CoreDataProperties.swift */; };
+		C3174A7D2BB5EB7F000D0974 /* EnumSwitcherWatchlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A7C2BB5EB7F000D0974 /* EnumSwitcherWatchlist.swift */; };
+		C3174A7F2BBC3BB3000D0974 /* WatchListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A7E2BBC3BB3000D0974 /* WatchListViewModel.swift */; };
+		C3174A812BBC4047000D0974 /* WatchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A802BBC4047000D0974 /* WatchListTableViewCell.swift */; };
 		C351D75B2BB1F6CA00D68419 /* Stock.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C351D75A2BB1F6CA00D68419 /* Stock.storyboard */; };
 		C351D75D2BB1F6F400D68419 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351D75C2BB1F6F400D68419 /* StockViewController.swift */; };
 		C351D7602BB1FAED00D68419 /* StockURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351D75F2BB1FAED00D68419 /* StockURLRequest.swift */; };
@@ -44,6 +50,12 @@
 /* Begin PBXFileReference section */
 		6FB4B558AC956E86C0A13E45 /* Pods-SimpleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleProject.release.xcconfig"; path = "Target Support Files/Pods-SimpleProject/Pods-SimpleProject.release.xcconfig"; sourceTree = "<group>"; };
 		935493BFD8C0F3181D46CAAD /* Pods_SimpleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3174A752BB5CF3F000D0974 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		C3174A782BB5D2CC000D0974 /* Stock+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stock+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C3174A792BB5D2CC000D0974 /* Stock+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stock+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C3174A7C2BB5EB7F000D0974 /* EnumSwitcherWatchlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwitcherWatchlist.swift; sourceTree = "<group>"; };
+		C3174A7E2BBC3BB3000D0974 /* WatchListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListViewModel.swift; sourceTree = "<group>"; };
+		C3174A802BBC4047000D0974 /* WatchListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListTableViewCell.swift; sourceTree = "<group>"; };
 		C351D75A2BB1F6CA00D68419 /* Stock.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stock.storyboard; sourceTree = "<group>"; };
 		C351D75C2BB1F6F400D68419 /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
 		C351D75F2BB1FAED00D68419 /* StockURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockURLRequest.swift; sourceTree = "<group>"; };
@@ -109,12 +121,22 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		C3174A772BB5D123000D0974 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3174A782BB5D2CC000D0974 /* Stock+CoreDataClass.swift */,
+				C3174A792BB5D2CC000D0974 /* Stock+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C351D7572BB1F63600D68419 /* StockScreen */ = {
 			isa = PBXGroup;
 			children = (
 				C351D75A2BB1F6CA00D68419 /* Stock.storyboard */,
 				C351D75C2BB1F6F400D68419 /* StockViewController.swift */,
 				C351D7692BB3313700D68419 /* StockViewModel.swift */,
+				C3174A7C2BB5EB7F000D0974 /* EnumSwitcherWatchlist.swift */,
 			);
 			path = StockScreen;
 			sourceTree = "<group>";
@@ -168,6 +190,8 @@
 			children = (
 				C385692C2B9E22A20008DF96 /* WatchListController.swift */,
 				C38569252B978EC80008DF96 /* Watchlist.storyboard */,
+				C3174A7E2BBC3BB3000D0974 /* WatchListViewModel.swift */,
+				C3174A802BBC4047000D0974 /* WatchListTableViewCell.swift */,
 			);
 			path = WatchListScreen;
 			sourceTree = "<group>";
@@ -175,11 +199,13 @@
 		C38569342BA0D6780008DF96 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				C3174A772BB5D123000D0974 /* Models */,
 				C385692E2B9E236D0008DF96 /* TabController.swift */,
 				C388B4012B8E34B500488032 /* SimpleProject.xcdatamodeld */,
 				C388B4042B8E34B600488032 /* Assets.xcassets */,
 				C388B3FA2B8E34B500488032 /* SceneDelegate.swift */,
 				C388B3F82B8E34B500488032 /* AppDelegate.swift */,
+				C3174A752BB5CF3F000D0974 /* CoreDataService.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
@@ -346,17 +372,23 @@
 				C351D7602BB1FAED00D68419 /* StockURLRequest.swift in Sources */,
 				C388B3FD2B8E34B500488032 /* MainViewController.swift in Sources */,
 				C385692D2B9E22A20008DF96 /* WatchListController.swift in Sources */,
+				C3174A812BBC4047000D0974 /* WatchListTableViewCell.swift in Sources */,
 				C351D7682BB32C3E00D68419 /* StockPriceModel.swift in Sources */,
 				C385693E2BA363D50008DF96 /* MarketModel.swift in Sources */,
 				C351D75D2BB1F6F400D68419 /* StockViewController.swift in Sources */,
 				C385693A2BA3602D0008DF96 /* MarketUrlSession.swift in Sources */,
 				C351D7662BB32C3100D68419 /* StockInfoModel.swift in Sources */,
 				C388B3F92B8E34B500488032 /* AppDelegate.swift in Sources */,
+				C3174A762BB5CF3F000D0974 /* CoreDataService.swift in Sources */,
 				C385692F2B9E236D0008DF96 /* TabController.swift in Sources */,
 				C388B3FB2B8E34B500488032 /* SceneDelegate.swift in Sources */,
+				C3174A7D2BB5EB7F000D0974 /* EnumSwitcherWatchlist.swift in Sources */,
+				C3174A7F2BBC3BB3000D0974 /* WatchListViewModel.swift in Sources */,
 				C351D76A2BB3313700D68419 /* StockViewModel.swift in Sources */,
 				C38569462BAC9B690008DF96 /* WatchlistModel.xcdatamodeld in Sources */,
 				C38569362BA0DA3D0008DF96 /* NewsViewModel.swift in Sources */,
+				C3174A7B2BB5D2CC000D0974 /* Stock+CoreDataProperties.swift in Sources */,
+				C3174A7A2BB5D2CC000D0974 /* Stock+CoreDataClass.swift in Sources */,
 				C38569402BA36F8C0008DF96 /* MarketTableViewCell.swift in Sources */,
 				C38569282B9A3BF20008DF96 /* NewsModelStruct.swift in Sources */,
 				C388B4032B8E34B500488032 /* SimpleProject.xcdatamodeld in Sources */,

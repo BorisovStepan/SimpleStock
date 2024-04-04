@@ -3,11 +3,9 @@ import CoreData
 
 final class CoreDataService {
     
-    
     static var context: NSManagedObjectContext {
         return persistentContainer.viewContext
     }
-    
     
     static private var persistentContainer: NSPersistentContainer = {
         let container = NSPersistentContainer(name: "WatchlistModel")
@@ -30,6 +28,4 @@ final class CoreDataService {
             }
         }
     }
-    
-    
 }

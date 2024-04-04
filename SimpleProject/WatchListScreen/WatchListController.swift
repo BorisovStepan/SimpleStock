@@ -1,10 +1,3 @@
-//
-//  WatchListController.swift
-//  SimpleProject
-//
-//  Created by Stepan Borisov on 10.03.24.
-//
-
 import UIKit
 
 class WatchListController: UIViewController {
@@ -12,33 +5,19 @@ class WatchListController: UIViewController {
     @IBOutlet weak var watchlistTable: UITableView!
     private let network = MarketNetworkService()
     var watchlistModel = WatchListViewModel()
-    let activityIndicator = UIActivityIndicatorView(style: .large)
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
-        self.watchlistTable.reloadData()
+        watchlistModel.getStocks()
+        watchlistTable.reloadData()
     }
     
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        animation()
         watchlistModel.date = network.currentDate()
-        watchlistModel.loadPrice()
-        watchlistModel.stockPriceDidChange = {
-            DispatchQueue.main.async { [weak self] in
-                    self?.activityIndicator.stopAnimating()
-                    self?.watchlistTable.reloadData()
-            }
-        }
+        self.watchlistTable.reloadData()
         self.watchlistTable.dataSource = self
         self.watchlistTable.delegate = self
-    }
-    
-    private func animation () {
-        activityIndicator.center = view.center
-        view.addSubview(activityIndicator)
-        activityIndicator.startAnimating()
     }
 }
 
@@ -57,9 +36,10 @@ extension WatchListController:  UITableViewDataSource {
 
 extension WatchListController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        watchlistTable.deselectRow(at: indexPath, animated: true)
         let stock = watchlistModel.stockPrice[indexPath.row]
         if let stockVC = UIStoryboard(name: "Stock", bundle: nil).instantiateViewController(withIdentifier: "stock") as? StockViewController {
-            stockVC.stockModel.stock  = stock.name
+            stockVC.stockModel.stock  = stock.stockName
             stockVC.stockModel.date = network.currentDate()
             present(stockVC, animated: true)
         }

@@ -2,7 +2,7 @@
 //  Stock+CoreDataProperties.swift
 //  SimpleProject
 //
-//  Created by Stepan Borisov on 28.03.24.
+//  Created by Stepan Borisov on 4.04.24.
 //
 //
 
@@ -17,6 +17,8 @@ extension Stock {
     }
 
     @NSManaged public var stockName: String?
+    @NSManaged public var openPrice: Double
+    @NSManaged public var differencePrice: Double
 
 }
 

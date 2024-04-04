@@ -4,7 +4,7 @@ import Foundation
 
 final class MarketNetworkService {
     
-     func currentDate() -> String {
+    func currentDate() -> String {
         let currentDate = Date()
         let calendar = Calendar.current
         if let yesterday = calendar.date(byAdding: .day, value: -1, to: currentDate) {

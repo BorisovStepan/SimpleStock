@@ -2,7 +2,7 @@
 //  Stock+CoreDataClass.swift
 //  SimpleProject
 //
-//  Created by Stepan Borisov on 28.03.24.
+//  Created by Stepan Borisov on 4.04.24.
 //
 //
 

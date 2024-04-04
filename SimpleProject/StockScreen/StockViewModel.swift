@@ -30,6 +30,10 @@ final class StockViewModel {
         }
     }
     
+    func reloadTableWatchlist() {
+        
+    }
+    
     func loadInfo() {
         network.date = date
         network.stock = stock

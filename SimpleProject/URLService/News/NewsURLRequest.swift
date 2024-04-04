@@ -2,7 +2,6 @@
 import Foundation
 
 final class NetworkServiceNews {
-    
     func loadData(completion: @escaping([NewsModel]) -> ()) {
         guard let url = URL(string: "https://api.polygon.io/v2/reference/news?limit=20&apiKey=qBLt0ai9OAXWTBSZpcudvIyjvoFzKZtK") else { return }
         var request = URLRequest(url: url)

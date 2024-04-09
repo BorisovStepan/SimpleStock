@@ -4,7 +4,6 @@ import UIKit
 class MarketTableViewCell: UITableViewCell {
     
     @IBOutlet weak var tickerLavbel: UILabel!
-    
     @IBOutlet weak var differenceLabel: UILabel!
     @IBOutlet weak var avaragePrice: UILabel!
     

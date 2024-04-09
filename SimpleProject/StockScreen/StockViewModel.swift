@@ -21,7 +21,6 @@ final class StockViewModel {
     
     private let network = StockNetworkService()
 
-    
     func loadPrice() {
         network.date = date
         network.stock = stock

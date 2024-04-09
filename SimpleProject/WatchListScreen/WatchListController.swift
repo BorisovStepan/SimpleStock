@@ -5,6 +5,7 @@ class WatchListController: UIViewController {
     @IBOutlet weak var watchlistTable: UITableView!
     private let network = MarketNetworkService()
     var watchlistModel = WatchListViewModel()
+    weak var delegate: StockViewControllerDelegate?
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
@@ -39,6 +40,7 @@ extension WatchListController: UITableViewDelegate {
         watchlistTable.deselectRow(at: indexPath, animated: true)
         let stock = watchlistModel.stockPrice[indexPath.row]
         if let stockVC = UIStoryboard(name: "Stock", bundle: nil).instantiateViewController(withIdentifier: "stock") as? StockViewController {
+            stockVC.delegate = self
             stockVC.stockModel.stock  = stock.stockName
             stockVC.stockModel.date = network.currentDate()
             present(stockVC, animated: true)
@@ -48,4 +50,12 @@ extension WatchListController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return UITableView.automaticDimension
     }
+}
+
+extension WatchListController: StockViewControllerDelegate {
+    func updateTable() {
+        watchlistModel.getStocks()
+        watchlistTable.reloadData()
+    }
+    
 }

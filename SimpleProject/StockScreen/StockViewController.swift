@@ -1,6 +1,10 @@
 import UIKit
 import CoreData
 
+protocol StockViewControllerDelegate: AnyObject {
+    func updateTable()
+}
+
 class StockViewController: UIViewController {
     @IBOutlet weak var tickerLabel: UILabel!
     @IBOutlet weak var nameLabel: UILabel!
@@ -11,21 +15,17 @@ class StockViewController: UIViewController {
     @IBOutlet weak var openPrice: UILabel!
     let stockModel = StockViewModel()
     var state: WatchlistToDo?
+    weak var delegate: StockViewControllerDelegate?
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(true)
         checkCoreData()
     }
     
-    override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(true)
-        
-    }
-    
     override func viewDidLoad() {
         super.viewDidLoad()
-        stockModel.loadInfo()
         stockModel.loadPrice()
+        stockModel.loadInfo()
         stockModel.stockInfoDidChange = {
             DispatchQueue.main.async { [weak self] in
                 self?.configureStockInfo()
@@ -91,17 +91,21 @@ class StockViewController: UIViewController {
                     }
                 }
             }
+            delegate?.updateTable()
+            state = .add
         case .add :
             let context = CoreDataService.context
-            context.perform {
+            context.perform { [self] in
                 let newStock = Stock(context: context)
                 newStock.openPrice = self.stockModel
                     .stockPrice.first?.open ?? 0.00
                 newStock.differencePrice = self.stockModel.calcDifference()
                 newStock.stockName = self.stockModel.stock
+                self.addStockButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
+                self.delegate?.updateTable()
+                state = .delete
                 CoreDataService.saveContext()
             }
-            addStockButton.setImage(UIImage(systemName: "heart.fill"), for: .normal)
         case .none:
             break
         }

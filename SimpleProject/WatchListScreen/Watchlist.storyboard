@@ -20,11 +20,11 @@
                                 <rect key="frame" x="0.0" y="768" width="393" height="1"/>
                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="1" id="ytS-uM-RKp"/>
+                                    <constraint firstAttribute="height" constant="1" id="6bt-3O-AiZ"/>
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="I7h-am-ME7">
-                                <rect key="frame" x="0.0" y="139" width="393" height="630"/>
+                                <rect key="frame" x="0.0" y="139" width="393" height="629"/>
                                 <color key="backgroundColor" red="0.05568605661" green="0.080775074660000001" blue="0.20378747580000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="watchlistCell" rowHeight="83" id="b1F-Vm-hhM" customClass="WatchListTableViewCell" customModule="SimpleProject" customModuleProvider="target">
@@ -112,14 +112,14 @@
                             <constraint firstItem="YLu-bT-B6V" firstAttribute="centerX" secondItem="6ni-mM-lpL" secondAttribute="centerX" id="1sg-Yw-Fdb"/>
                             <constraint firstItem="6ni-mM-lpL" firstAttribute="trailing" secondItem="I7h-am-ME7" secondAttribute="trailing" id="4hw-3q-2OR"/>
                             <constraint firstItem="6HB-z5-N8k" firstAttribute="top" secondItem="LFf-tO-6WC" secondAttribute="bottom" constant="10" id="Gxc-DC-ydV"/>
-                            <constraint firstItem="6ni-mM-lpL" firstAttribute="bottom" secondItem="I7h-am-ME7" secondAttribute="bottom" id="Hia-2s-MJe"/>
-                            <constraint firstItem="6ni-mM-lpL" firstAttribute="bottom" secondItem="8g7-Qm-oLe" secondAttribute="bottom" id="Ixt-8k-yII"/>
                             <constraint firstItem="FOK-kx-rYP" firstAttribute="leading" secondItem="6ni-mM-lpL" secondAttribute="leading" constant="31" id="JoI-s9-THF"/>
                             <constraint firstItem="LFf-tO-6WC" firstAttribute="top" secondItem="6ni-mM-lpL" secondAttribute="top" constant="15" id="KLk-D0-8w5"/>
                             <constraint firstItem="LFf-tO-6WC" firstAttribute="leading" secondItem="6ni-mM-lpL" secondAttribute="leading" id="LXJ-76-Ull"/>
                             <constraint firstItem="I7h-am-ME7" firstAttribute="top" secondItem="FOK-kx-rYP" secondAttribute="bottom" constant="1" id="Ngn-R5-4o1"/>
                             <constraint firstItem="8g7-Qm-oLe" firstAttribute="leading" secondItem="6ni-mM-lpL" secondAttribute="leading" id="QEi-Pr-M0J"/>
+                            <constraint firstItem="8g7-Qm-oLe" firstAttribute="top" secondItem="I7h-am-ME7" secondAttribute="bottom" id="WCR-eJ-CbT"/>
                             <constraint firstItem="6ni-mM-lpL" firstAttribute="trailing" secondItem="8g7-Qm-oLe" secondAttribute="trailing" id="cEo-Ez-Jot"/>
+                            <constraint firstItem="8g7-Qm-oLe" firstAttribute="bottom" secondItem="6ni-mM-lpL" secondAttribute="bottom" id="gAq-ln-cMs"/>
                             <constraint firstItem="FOK-kx-rYP" firstAttribute="top" secondItem="LFf-tO-6WC" secondAttribute="bottom" constant="27" id="ghS-pS-ezx"/>
                             <constraint firstItem="6HB-z5-N8k" firstAttribute="leading" secondItem="6ni-mM-lpL" secondAttribute="leading" id="gvF-Cv-9jP"/>
                             <constraint firstItem="I7h-am-ME7" firstAttribute="leading" secondItem="6ni-mM-lpL" secondAttribute="leading" id="hju-jB-bZ5"/>

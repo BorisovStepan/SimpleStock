@@ -62,14 +62,14 @@ extension MainViewController: UITableViewDelegate {
             if let stockVC = UIStoryboard(name: "Stock", bundle: nil).instantiateViewController(withIdentifier: "stock") as? StockViewController {
                 stockVC.stockModel.stock = stock.t
                 stockVC.stockModel.date = network.currentDate()
-                present(stockVC, animated: true)
+                self.present(stockVC, animated: true)
             }
         } else {
             let stock = marketModel.market[indexPath.row]
             if let stockVC = UIStoryboard(name: "Stock", bundle: nil).instantiateViewController(withIdentifier: "stock") as? StockViewController {
                 stockVC.stockModel.stock = stock.t
                 stockVC.stockModel.date = network.currentDate()
-                present(stockVC, animated: true)
+                self.present(stockVC, animated: true)
             }
         }
     }

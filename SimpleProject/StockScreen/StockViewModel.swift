@@ -1,7 +1,6 @@
 import Foundation
 
 final class StockViewModel {
-    var date: String?
     var stock: String?
     
     var stockPrice = [PriceModel]() {
@@ -20,21 +19,56 @@ final class StockViewModel {
     var stockInfoDidChange: (() -> Void)?
     
     private let network = StockNetworkService()
-
+    
     func loadPrice() {
-        network.date = date
         network.stock = stock
         network.loadStockPrice() { [weak self] newData in
             self?.stockPrice.append(newData)
         }
     }
     
-    func reloadTableWatchlist() {
-        
+    func deleteData() {
+        let request = Stock.fetchRequest()
+        if let stocks = try? CoreDataService.context.fetch(request) {
+            for stockName in stocks {
+                if stockName.stockName == stock {
+                    CoreDataService.context.delete(stockName)
+                    CoreDataService.saveContext()
+                }
+            }
+        }
+    }
+    
+    func addDataToCore() {
+        let context = CoreDataService.context
+        context.perform { [self] in
+            let newStock = Stock(context: context)
+            newStock.openPrice = stockPrice.first?.open ?? 0.00
+            newStock.differencePrice = calcDifference()
+            newStock.stockName = stock
+            CoreDataService.saveContext()
+        }
+    }
+    
+    func checkCoreData() -> Bool{
+        var isStockinCoreData = false
+        let request = Stock.fetchRequest()
+        if let stocks = try? CoreDataService.context.fetch(request) {
+            if stocks.isEmpty {
+                isStockinCoreData = false
+            } else {
+                let stockNames = stocks.map { $0.stockName }
+                if stockNames.contains(stock) {
+                    isStockinCoreData = true
+                } else {
+                    isStockinCoreData = false
+                }
+            }
+        }
+        return isStockinCoreData
     }
     
     func loadInfo() {
-        network.date = date
         network.stock = stock
         network.loadStockInfo() { [weak self] newData in
             self?.stockInfo.append(newData)

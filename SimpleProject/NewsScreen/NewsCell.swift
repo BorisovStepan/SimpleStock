@@ -1,10 +1,10 @@
 import UIKit
 
-class NewsCell: UITableViewCell {
+final class NewsCell: UITableViewCell {
 
-    @IBOutlet weak var authorLabel: UILabel!
-    @IBOutlet weak var titleLabel: UILabel!
-    @IBOutlet weak var desriptionLabel: UILabel!
+    @IBOutlet weak private var authorLabel: UILabel!
+    @IBOutlet weak private var titleLabel: UILabel!
+    @IBOutlet weak private var desriptionLabel: UILabel!
 
     func configure(with post: NewsModel) {
         authorLabel.text = post.author

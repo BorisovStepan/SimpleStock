@@ -1,10 +1,10 @@
 
 import UIKit
 
-class WatchListTableViewCell: UITableViewCell {
-    @IBOutlet weak var name: UILabel!
-    @IBOutlet weak var differenceLabel: UILabel!
-    @IBOutlet weak var openPrice: UILabel!
+final class WatchListTableViewCell: UITableViewCell {
+    @IBOutlet weak private var name: UILabel!
+    @IBOutlet weak private var differenceLabel: UILabel!
+    @IBOutlet weak private var openPrice: UILabel!
     
     func configure(with price: Stock) {
         if price.differencePrice < 0 {

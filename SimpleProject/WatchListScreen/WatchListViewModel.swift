@@ -19,7 +19,7 @@ final class WatchListViewModel {
     var stockPriceDidChange: (() -> Void)?
     var stockInfoDidChange: (() -> Void)?
     
-    private let network = StockNetworkService()
+    let network = StockNetworkService()
     
     func getStocks() {
         let request = Stock.fetchRequest()

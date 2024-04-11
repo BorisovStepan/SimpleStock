@@ -1,6 +1,6 @@
 import Foundation
 
 struct MarketModel {
-    let t: String
-    let c, o, vw: Double
+    let stockName: String
+    let closePrice, openPrice, avvaregePrice: Double
 }

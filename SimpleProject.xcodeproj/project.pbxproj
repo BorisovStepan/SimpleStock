@@ -38,11 +38,12 @@
 		C38569402BA36F8C0008DF96 /* MarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385693F2BA36F8C0008DF96 /* MarketTableViewCell.swift */; };
 		C38569462BAC9B690008DF96 /* WatchlistModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C38569442BAC9B690008DF96 /* WatchlistModel.xcdatamodeld */; };
 		C38569482BB0A7130008DF96 /* MarketViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38569472BB0A7130008DF96 /* MarketViewModel.swift */; };
+		C38640E62BC8470600E385DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38640E52BC8470600E385DF /* Constants.swift */; };
+		C38640E82BC857B900E385DF /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38640E72BC857B900E385DF /* Func.swift */; };
 		C388B3F92B8E34B500488032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3F82B8E34B500488032 /* AppDelegate.swift */; };
 		C388B3FB2B8E34B500488032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3FA2B8E34B500488032 /* SceneDelegate.swift */; };
 		C388B3FD2B8E34B500488032 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3FC2B8E34B500488032 /* MainViewController.swift */; };
 		C388B4002B8E34B500488032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C388B3FE2B8E34B500488032 /* Main.storyboard */; };
-		C388B4032B8E34B500488032 /* SimpleProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C388B4012B8E34B500488032 /* SimpleProject.xcdatamodeld */; };
 		C388B4052B8E34B600488032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C388B4042B8E34B600488032 /* Assets.xcassets */; };
 		C388B4082B8E34B600488032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C388B4062B8E34B600488032 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -80,12 +81,13 @@
 		C385693F2BA36F8C0008DF96 /* MarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTableViewCell.swift; sourceTree = "<group>"; };
 		C38569452BAC9B690008DF96 /* WatchlistModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatchlistModel.xcdatamodel; sourceTree = "<group>"; };
 		C38569472BB0A7130008DF96 /* MarketViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketViewModel.swift; sourceTree = "<group>"; };
+		C38640E52BC8470600E385DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C38640E72BC857B900E385DF /* Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Func.swift; sourceTree = "<group>"; };
 		C388B3F52B8E34B500488032 /* SimpleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C388B3F82B8E34B500488032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C388B3FA2B8E34B500488032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		C388B3FC2B8E34B500488032 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C388B3FF2B8E34B500488032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C388B4022B8E34B500488032 /* SimpleProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleProject.xcdatamodel; sourceTree = "<group>"; };
 		C388B4042B8E34B600488032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C388B4072B8E34B600488032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C388B4092B8E34B600488032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -199,9 +201,9 @@
 		C38569342BA0D6780008DF96 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				C38640E42BC846E700E385DF /* Enum */,
 				C3174A772BB5D123000D0974 /* Models */,
 				C385692E2B9E236D0008DF96 /* TabController.swift */,
-				C388B4012B8E34B500488032 /* SimpleProject.xcdatamodeld */,
 				C388B4042B8E34B600488032 /* Assets.xcassets */,
 				C388B3FA2B8E34B500488032 /* SceneDelegate.swift */,
 				C388B3F82B8E34B500488032 /* AppDelegate.swift */,
@@ -228,6 +230,15 @@
 				C385693D2BA363D50008DF96 /* MarketModel.swift */,
 			);
 			path = Market;
+			sourceTree = "<group>";
+		};
+		C38640E42BC846E700E385DF /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				C38640E52BC8470600E385DF /* Constants.swift */,
+				C38640E72BC857B900E385DF /* Func.swift */,
+			);
+			path = Enum;
 			sourceTree = "<group>";
 		};
 		C388B3EC2B8E34B500488032 = {
@@ -372,6 +383,7 @@
 				C351D7602BB1FAED00D68419 /* StockURLRequest.swift in Sources */,
 				C388B3FD2B8E34B500488032 /* MainViewController.swift in Sources */,
 				C385692D2B9E22A20008DF96 /* WatchListController.swift in Sources */,
+				C38640E62BC8470600E385DF /* Constants.swift in Sources */,
 				C3174A812BBC4047000D0974 /* WatchListTableViewCell.swift in Sources */,
 				C351D7682BB32C3E00D68419 /* StockPriceModel.swift in Sources */,
 				C385693E2BA363D50008DF96 /* MarketModel.swift in Sources */,
@@ -380,6 +392,7 @@
 				C351D7662BB32C3100D68419 /* StockInfoModel.swift in Sources */,
 				C388B3F92B8E34B500488032 /* AppDelegate.swift in Sources */,
 				C3174A762BB5CF3F000D0974 /* CoreDataService.swift in Sources */,
+				C38640E82BC857B900E385DF /* Func.swift in Sources */,
 				C385692F2B9E236D0008DF96 /* TabController.swift in Sources */,
 				C388B3FB2B8E34B500488032 /* SceneDelegate.swift in Sources */,
 				C3174A7D2BB5EB7F000D0974 /* EnumSwitcherWatchlist.swift in Sources */,
@@ -390,7 +403,6 @@
 				C38569362BA0DA3D0008DF96 /* NewsViewModel.swift in Sources */,
 				C38569402BA36F8C0008DF96 /* MarketTableViewCell.swift in Sources */,
 				C38569282B9A3BF20008DF96 /* NewsModelStruct.swift in Sources */,
-				C388B4032B8E34B500488032 /* SimpleProject.xcdatamodeld in Sources */,
 				C38569222B977E600008DF96 /* StructNews.swift in Sources */,
 				C3174A852BBF082F000D0974 /* Stock+CoreDataProperties.swift in Sources */,
 				C351D7622BB1FB2500D68419 /* StockStruct.swift in Sources */,
@@ -623,16 +635,6 @@
 			);
 			currentVersion = C38569452BAC9B690008DF96 /* WatchlistModel.xcdatamodel */;
 			path = WatchlistModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		C388B4012B8E34B500488032 /* SimpleProject.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				C388B4022B8E34B500488032 /* SimpleProject.xcdatamodel */,
-			);
-			currentVersion = C388B4022B8E34B500488032 /* SimpleProject.xcdatamodel */;
-			path = SimpleProject.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

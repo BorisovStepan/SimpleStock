@@ -70,9 +70,9 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="c1Z-JK-ZV8">
-                                <rect key="frame" x="334" y="81" width="51" height="34.333333333333343"/>
+                                <rect key="frame" x="334" y="81" width="51" height="14"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" image="heart" catalog="system"/>
+                                <buttonConfiguration key="configuration" style="plain"/>
                                 <connections>
                                     <action selector="pressAddStockButton:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="1HE-0j-3Uu"/>
                                 </connections>
@@ -121,7 +121,4 @@
             <point key="canvasLocation" x="49.618320610687022" y="-34.507042253521128"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="heart" catalog="system" width="128" height="107"/>
-    </resources>
 </document>

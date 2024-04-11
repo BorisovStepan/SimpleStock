@@ -1,21 +1,29 @@
 import UIKit
 import SafariServices
 
-class NewsController: UIViewController {
+final class NewsController: UIViewController {
     
-    @IBOutlet weak var tableNews: UITableView!
-    @IBOutlet weak var xsxs: UILabel!
+    @IBOutlet weak private var tableNews: UITableView!
+    @IBOutlet weak private  var xsxs: UILabel!
     private var newsModel = NewsViewModel()
-    let activityIndicator = UIActivityIndicatorView(style: .large)
-    
-    override func viewDidAppear(_ animated: Bool) {
-        super.viewDidAppear(true)
-    }
+    private let activityIndicator = UIActivityIndicatorView(style: .large)
     
     override func viewDidLoad() {
         super.viewDidLoad()
         animation()
         tableNews.estimatedRowHeight = 68.0
+        stopAnimation()
+        tableNews.dataSource = self
+        tableNews.delegate = self
+    }
+    
+    private func animation() {
+        activityIndicator.center = view.center
+        view.addSubview(activityIndicator)
+        activityIndicator.startAnimating()
+    }
+    
+    private func stopAnimation() {
         newsModel.load()
         newsModel.newsDidChange = {
             DispatchQueue.main.async { [weak self] in
@@ -23,14 +31,6 @@ class NewsController: UIViewController {
                 self?.tableNews.reloadData()
             }
         }
-        tableNews.dataSource = self
-        tableNews.delegate = self
-    }
-    
-    private func animation () {
-        activityIndicator.center = view.center
-        view.addSubview(activityIndicator)
-        activityIndicator.startAnimating()
     }
 }
 

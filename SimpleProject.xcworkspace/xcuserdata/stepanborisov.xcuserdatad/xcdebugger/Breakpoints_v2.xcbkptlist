@@ -381,8 +381,8 @@
             filePath = "SimpleProject/URLService/Market/MarketUrlSession.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "21"
-            endingLineNumber = "21"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
             <Locations>
@@ -437,38 +437,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "A3673AC6-1A7C-4236-B9C9-B6ACF02D9C6C"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/URLService/Market/MarketUrlSession.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "10"
-            endingLineNumber = "10"
-            landmarkName = "currentDate()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "024F4188-3886-4CAE-ACE1-78ECB1973276"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/URLService/Market/MarketUrlSession.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "currentDate()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "D3796C58-37A7-4FA9-9900-FC04EAF4C125"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -476,8 +444,8 @@
             filePath = "SimpleProject/URLService/Market/MarketUrlSession.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "22"
-            endingLineNumber = "22"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -492,8 +460,8 @@
             filePath = "SimpleProject/URLService/Market/MarketUrlSession.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "25"
-            endingLineNumber = "25"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
             <Locations>
@@ -540,8 +508,8 @@
             filePath = "SimpleProject/URLService/Market/MarketUrlSession.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -556,8 +524,8 @@
             filePath = "SimpleProject/URLService/Market/MarketUrlSession.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
             <Locations>
@@ -604,8 +572,8 @@
             filePath = "SimpleProject/URLService/News/NewsURLRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "5"
-            endingLineNumber = "5"
+            startingLineNumber = "4"
+            endingLineNumber = "4"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -652,8 +620,8 @@
             filePath = "SimpleProject/URLService/News/NewsURLRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -668,8 +636,8 @@
             filePath = "SimpleProject/URLService/News/NewsURLRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
             <Locations>
@@ -716,8 +684,8 @@
             filePath = "SimpleProject/NewsScreen/NewsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
             landmarkName = "load()"
             landmarkType = "7">
             <Locations>
@@ -764,8 +732,8 @@
             filePath = "SimpleProject/NewsScreen/NewsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
             landmarkName = "load()"
             landmarkType = "7">
          </BreakpointContent>
@@ -780,8 +748,8 @@
             filePath = "SimpleProject/NewsScreen/NewsViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "NewsViewModel"
             landmarkType = "3">
          </BreakpointContent>
@@ -805,22 +773,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5540FFBB-96B3-420D-AED9-F44FE940B1C9"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/StockScreen/StockViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "14"
-            endingLineNumber = "14"
-            landmarkName = "StockViewController"
-            landmarkType = "3">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "75B9200B-6285-49C3-A9E4-B018DB0C4031"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -828,8 +780,8 @@
             filePath = "SimpleProject/URLService/Stock/StockURLRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "11"
-            endingLineNumber = "11"
+            startingLineNumber = "9"
+            endingLineNumber = "9"
             landmarkName = "loadStockInfo(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -844,8 +796,8 @@
             filePath = "SimpleProject/URLService/Stock/StockURLRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
             landmarkName = "loadStockPrice(completion:)"
             landmarkType = "7">
             <Locations>
@@ -885,102 +837,6 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "2B27EAA0-6C93-49E7-AE78-B44E26A34B71"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/StockScreen/StockViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "30"
-            endingLineNumber = "30"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "2B27EAA0-6C93-49E7-AE78-B44E26A34B71 - a6da96842d978cba"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in SimpleProject.StockViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/StockScreen/StockViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "152">
-               </Location>
-               <Location
-                  uuid = "2B27EAA0-6C93-49E7-AE78-B44E26A34B71 - 4c2d0fd54991d593"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Swift.MainActor () -&gt; () in closure #1 () -&gt; () in SimpleProject.StockViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/StockScreen/StockViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "68">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1CDCC5CA-A6F9-459F-BD43-84752B04ED34"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/StockScreen/StockViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "29"
-            endingLineNumber = "29"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1CDCC5CA-A6F9-459F-BD43-84752B04ED34 - b68542fbb08d40cd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.StockViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/StockScreen/StockViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "23"
-                  endingLineNumber = "23"
-                  offsetFromSymbolStart = "200">
-               </Location>
-               <Location
-                  uuid = "1CDCC5CA-A6F9-459F-BD43-84752B04ED34 - a6da96842d978cba"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in SimpleProject.StockViewController.viewDidLoad() -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/StockScreen/StockViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "24"
-                  endingLineNumber = "24"
-                  offsetFromSymbolStart = "152">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
             uuid = "33B296B7-C6F7-4184-91AC-1FC480A3530B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
@@ -988,8 +844,8 @@
             filePath = "SimpleProject/URLService/Stock/StockURLRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "28"
-            endingLineNumber = "28"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "loadStockPrice(completion:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1004,169 +860,9 @@
             filePath = "SimpleProject/URLService/Stock/StockURLRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "15"
-            endingLineNumber = "15"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
             landmarkName = "loadStockInfo(completion:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "CA8B8DDE-6C48-44DD-8FAC-67761A68C342"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/StockScreen/StockViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
-            landmarkName = "checkCoreData()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "7C1EBE0F-747C-4990-A16B-B1F3E3D02005"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/StockScreen/StockViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
-            landmarkName = "checkCoreData()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7C1EBE0F-747C-4990-A16B-B1F3E3D02005 - 47e40cbf8281c2c1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.StockViewController.checkCoreData() -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/StockScreen/StockViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "144">
-               </Location>
-               <Location
-                  uuid = "7C1EBE0F-747C-4990-A16B-B1F3E3D02005 - 47e40cbf8281c2c1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.StockViewController.checkCoreData() -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/StockScreen/StockViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "52"
-                  endingLineNumber = "52"
-                  offsetFromSymbolStart = "272">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1A892659-62EF-4E01-A7AF-CE786E502E1D"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/StockScreen/StockViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "98"
-            endingLineNumber = "98"
-            landmarkName = "pressAddStockButton(_:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "1A892659-62EF-4E01-A7AF-CE786E502E1D - a1cda62f92541804"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.StockViewController.pressAddStockButton(Any) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/StockScreen/StockViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "102"
-                  endingLineNumber = "102"
-                  offsetFromSymbolStart = "1644">
-               </Location>
-               <Location
-                  uuid = "1A892659-62EF-4E01-A7AF-CE786E502E1D - 6ffbacc64bc08264"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in SimpleProject.StockViewController.pressAddStockButton(Any) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/StockScreen/StockViewController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "103"
-                  endingLineNumber = "103"
-                  offsetFromSymbolStart = "48">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "C132C02D-8746-4DED-962B-09CD4C2859E4"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/StockScreen/StockViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
-            landmarkName = "pressAddStockButton(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "F4BDD79D-CC56-4E28-9A71-0D1C8C269BA2"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/StockScreen/StockViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "88"
-            endingLineNumber = "88"
-            landmarkName = "pressAddStockButton(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "D83AEEA1-6731-4208-A9D8-31ACDC8896DE"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/StockScreen/StockViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "99"
-            endingLineNumber = "99"
-            landmarkName = "pressAddStockButton(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -1180,8 +876,8 @@
             filePath = "SimpleProject/StockScreen/StockViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "83"
-            endingLineNumber = "83"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
             landmarkName = "pressAddStockButton(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1190,14 +886,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "441FDC88-0B22-4B78-95E5-889363241448"
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleProject/StockScreen/StockViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "82"
-            endingLineNumber = "82"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "pressAddStockButton(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1212,8 +908,8 @@
             filePath = "SimpleProject/StockScreen/StockViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "81"
-            endingLineNumber = "81"
+            startingLineNumber = "76"
+            endingLineNumber = "76"
             landmarkName = "pressAddStockButton(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1228,74 +924,10 @@
             filePath = "SimpleProject/WatchListScreen/WatchListController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "16"
-            endingLineNumber = "16"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "viewDidLoad()"
             landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "E7C8F471-3460-4A45-A56A-A72412F47BA7"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/StockScreen/StockViewController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "89"
-            endingLineNumber = "89"
-            landmarkName = "pressAddStockButton(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "B6154044-7216-4E89-85A8-F9EEFEB24F04"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SimpleProject/WatchListScreen/WatchListController.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "42"
-            endingLineNumber = "42"
-            landmarkName = "tableView(_:didSelectRowAt:)"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "B6154044-7216-4E89-85A8-F9EEFEB24F04 - b2b9820897238b59"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.WatchListController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/WatchListScreen/WatchListController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "61"
-                  endingLineNumber = "61"
-                  offsetFromSymbolStart = "436">
-               </Location>
-               <Location
-                  uuid = "B6154044-7216-4E89-85A8-F9EEFEB24F04 - b2b9820897238b59"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.WatchListController.tableView(_: __C.UITableView, didSelectRowAt: Foundation.IndexPath) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/WatchListScreen/WatchListController.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "61"
-                  endingLineNumber = "61"
-                  offsetFromSymbolStart = "728">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -1308,8 +940,8 @@
             filePath = "SimpleProject/WatchListScreen/WatchListController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1324,8 +956,8 @@
             filePath = "SimpleProject/WatchListScreen/WatchListController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -1356,25 +988,57 @@
             filePath = "SimpleProject/WatchListScreen/WatchListController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
             landmarkName = "updateTable()"
-            landmarkType = "9">
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "6A2BB88E-E38C-4DAC-948E-65B9870A87F4"
+            uuid = "6A38DEBF-2C89-4BAA-BC3D-BE2A969EBEB9"
             shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleProject/StockScreen/StockViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "checkCoreData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A47C9885-5922-40AC-8441-623B01207A05"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleProject/StockScreen/StockViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
-            landmarkName = "pressAddStockButton(_:)"
+            startingLineNumber = "52"
+            endingLineNumber = "52"
+            landmarkName = "checkCoreData()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3BC079A9-38E2-4EC5-BC43-9B1D7815F19F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleProject/StockScreen/StockViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "55"
+            endingLineNumber = "55"
+            landmarkName = "checkCoreData()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

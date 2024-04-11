@@ -1,12 +1,10 @@
 
 import Foundation
-class StockNetworkService {
-    var date: String?
+final class StockNetworkService {
     var stock: String?
     
-    
     func loadStockInfo(completion: @escaping(StockInfoMoodel) -> ()) {
-        guard let url = URL(string: "https://api.polygon.io/v3/reference/tickers/\(stock ?? "")?date=\(date ?? "")&apiKey=qBLt0ai9OAXWTBSZpcudvIyjvoFzKZtK") else { return }
+        guard let url = URL(string: "https://api.polygon.io/v3/reference/tickers/\(stock ?? "")?date=\(currentDate())&apiKey=qBLt0ai9OAXWTBSZpcudvIyjvoFzKZtK") else { return }
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         URLSession.shared.dataTask(with: request) { data, response, error  in
@@ -23,7 +21,7 @@ class StockNetworkService {
     }
     
     func loadStockPrice(completion: @escaping(PriceModel) -> ()) {
-        guard let url = URL(string: "https://api.polygon.io/v1/open-close/\(stock ?? "")/\(date ?? "")?adjusted=true&apiKey=qBLt0ai9OAXWTBSZpcudvIyjvoFzKZtK") else { return }
+        guard let url = URL(string: "https://api.polygon.io/v1/open-close/\(stock ?? "")/\(currentDate())?adjusted=true&apiKey=qBLt0ai9OAXWTBSZpcudvIyjvoFzKZtK") else { return }
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
         URLSession.shared.dataTask(with: request) { data, response, error  in

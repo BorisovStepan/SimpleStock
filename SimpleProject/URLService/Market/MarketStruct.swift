@@ -1,4 +1,3 @@
-
 import Foundation
 
 struct Market: Decodable {
@@ -9,5 +8,4 @@ struct Market: Decodable {
 struct Result: Decodable {
     let T: String?
     let c, o, vw: Double?
-
 }

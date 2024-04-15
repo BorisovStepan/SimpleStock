@@ -13,5 +13,11 @@ enum Icons {
     static let heartFill = UIImage(systemName: "heart.fill")
 }
 
+enum Cells {
+    static let watchListCell = "watchlistCell"
+    static let newsCell = "cell"
+    static let marketCell = "marketCell"
+}
+
 
 

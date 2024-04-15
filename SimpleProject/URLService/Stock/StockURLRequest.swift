@@ -1,9 +1,8 @@
 
 import Foundation
 final class StockNetworkService {
-    var stock: String?
     
-    func loadStockInfo(completion: @escaping(StockInfoMoodel) -> ()) {
+    func loadStockInfo(stock: String?, completion: @escaping(StockInfoMoodel) -> ()) {
         guard let url = URL(string: "https://api.polygon.io/v3/reference/tickers/\(stock ?? "")?date=\(currentDate())&apiKey=qBLt0ai9OAXWTBSZpcudvIyjvoFzKZtK") else { return }
         var request = URLRequest(url: url)
         request.httpMethod = "GET"
@@ -20,7 +19,7 @@ final class StockNetworkService {
         }.resume()
     }
     
-    func loadStockPrice(completion: @escaping(PriceModel) -> ()) {
+    func loadStockPrice(stock: String?, completion: @escaping(PriceModel) -> ()) {
         guard let url = URL(string: "https://api.polygon.io/v1/open-close/\(stock ?? "")/\(currentDate())?adjusted=true&apiKey=qBLt0ai9OAXWTBSZpcudvIyjvoFzKZtK") else { return }
         var request = URLRequest(url: url)
         request.httpMethod = "GET"

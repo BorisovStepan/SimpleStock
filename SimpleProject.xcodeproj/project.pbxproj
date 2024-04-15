@@ -132,6 +132,17 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		C31FF6D52BCDA29400DCE56A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C351D7672BB32C3E00D68419 /* StockPriceModel.swift */,
+				C38569272B9A3BF20008DF96 /* NewsModelStruct.swift */,
+				C351D7652BB32C3100D68419 /* StockInfoModel.swift */,
+				C385693D2BA363D50008DF96 /* MarketModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		C351D7572BB1F63600D68419 /* StockScreen */ = {
 			isa = PBXGroup;
 			children = (
@@ -149,8 +160,6 @@
 				C351D75F2BB1FAED00D68419 /* StockURLRequest.swift */,
 				C351D7612BB1FB2500D68419 /* StockStruct.swift */,
 				C351D7632BB32A3900D68419 /* StockPriceStruct.swift */,
-				C351D7652BB32C3100D68419 /* StockInfoModel.swift */,
-				C351D7672BB32C3E00D68419 /* StockPriceModel.swift */,
 			);
 			path = Stock;
 			sourceTree = "<group>";
@@ -201,6 +210,7 @@
 		C38569342BA0D6780008DF96 /* Support */ = {
 			isa = PBXGroup;
 			children = (
+				C31FF6D52BCDA29400DCE56A /* Model */,
 				C38640E42BC846E700E385DF /* Enum */,
 				C3174A772BB5D123000D0974 /* Models */,
 				C385692E2B9E236D0008DF96 /* TabController.swift */,
@@ -216,7 +226,6 @@
 			isa = PBXGroup;
 			children = (
 				C38569212B977E600008DF96 /* StructNews.swift */,
-				C38569272B9A3BF20008DF96 /* NewsModelStruct.swift */,
 				C385691F2B977DD70008DF96 /* NewsURLRequest.swift */,
 			);
 			path = News;
@@ -227,7 +236,6 @@
 			children = (
 				C38569392BA3602D0008DF96 /* MarketUrlSession.swift */,
 				C385693B2BA360AA0008DF96 /* MarketStruct.swift */,
-				C385693D2BA363D50008DF96 /* MarketModel.swift */,
 			);
 			path = Market;
 			sourceTree = "<group>";

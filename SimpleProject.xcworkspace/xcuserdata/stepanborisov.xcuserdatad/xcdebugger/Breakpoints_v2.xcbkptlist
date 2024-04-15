@@ -780,9 +780,9 @@
             filePath = "SimpleProject/URLService/Stock/StockURLRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "9"
-            endingLineNumber = "9"
-            landmarkName = "loadStockInfo(completion:)"
+            startingLineNumber = "8"
+            endingLineNumber = "8"
+            landmarkName = "loadStockInfo(stock:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -796,9 +796,9 @@
             filePath = "SimpleProject/URLService/Stock/StockURLRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
-            landmarkName = "loadStockPrice(completion:)"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "loadStockPrice(stock:completion:)"
             landmarkType = "7">
             <Locations>
                <Location
@@ -844,9 +844,9 @@
             filePath = "SimpleProject/URLService/Stock/StockURLRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "loadStockPrice(completion:)"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "loadStockPrice(stock:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -860,9 +860,9 @@
             filePath = "SimpleProject/URLService/Stock/StockURLRequest.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "13"
-            endingLineNumber = "13"
-            landmarkName = "loadStockInfo(completion:)"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "loadStockInfo(stock:completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -886,7 +886,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "441FDC88-0B22-4B78-95E5-889363241448"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleProject/StockScreen/StockViewController.swift"
@@ -1004,8 +1004,8 @@
             filePath = "SimpleProject/StockScreen/StockViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "57"
-            endingLineNumber = "57"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "checkCoreData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1014,7 +1014,7 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "A47C9885-5922-40AC-8441-623B01207A05"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SimpleProject/StockScreen/StockViewController.swift"
@@ -1036,10 +1036,74 @@
             filePath = "SimpleProject/StockScreen/StockViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "checkCoreData()"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2F454ED8-FE88-48F8-AB97-285FABF8A89D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleProject/MarketScreen/MarketViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "7"
+            endingLineNumber = "7"
+            landmarkName = "market"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7401533A-A3CF-49FA-8CCD-FF6574FACC58"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleProject/MarketScreen/MarketViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "load()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "7401533A-A3CF-49FA-8CCD-FF6574FACC58 - 5b6179567d5c2b6d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SimpleProject.MarketViewModel.load() -&gt; ()"
+                  moduleName = "SimpleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/MarketScreen/MarketViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "7401533A-A3CF-49FA-8CCD-FF6574FACC58 - e6a2fbc212d64a3c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;SimpleProject.MarketModel&gt;) -&gt; () in SimpleProject.MarketViewModel.load() -&gt; ()"
+                  moduleName = "SimpleProject"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/MarketScreen/MarketViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "32">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

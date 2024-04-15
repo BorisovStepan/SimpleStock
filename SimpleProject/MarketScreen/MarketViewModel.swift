@@ -14,7 +14,7 @@ final class MarketViewModel {
     let network = MarketNetworkService()
     
     func load() {
-        network.loadData() { [weak self] newData in
+        network.loadData { [weak self] newData in
             self?.market = newData
         }
     }

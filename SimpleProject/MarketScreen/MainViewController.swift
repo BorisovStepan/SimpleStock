@@ -45,7 +45,7 @@ extension MainViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "marketCell", for: indexPath) as! MarketTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: Cells.marketCell, for: indexPath) as! MarketTableViewCell
         if isSearching {
             let viewModel = filteredData[indexPath.row]
             cell.configure(with: viewModel)

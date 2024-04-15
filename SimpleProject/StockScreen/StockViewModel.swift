@@ -21,8 +21,7 @@ final class StockViewModel {
     private let network = StockNetworkService()
     
     func loadPrice() {
-        network.stock = stock
-        network.loadStockPrice() { [weak self] newData in
+        network.loadStockPrice(stock: stock) { [weak self] newData in
             self?.stockPrice.append(newData)
         }
     }
@@ -69,8 +68,7 @@ final class StockViewModel {
     }
     
     func loadInfo() {
-        network.stock = stock
-        network.loadStockInfo() { [weak self] newData in
+        network.loadStockInfo(stock: stock) { [weak self] newData in
             self?.stockInfo.append(newData)
         }
     }

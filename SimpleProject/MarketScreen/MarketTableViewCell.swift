@@ -3,9 +3,9 @@ import UIKit
 
 final class MarketTableViewCell: UITableViewCell {
     
-    @IBOutlet weak var tickerLavbel: UILabel!
-    @IBOutlet weak var differenceLabel: UILabel!
-    @IBOutlet weak var avaragePrice: UILabel!
+    @IBOutlet weak private var tickerLavbel: UILabel!
+    @IBOutlet weak private var differenceLabel: UILabel!
+    @IBOutlet weak private var avaragePrice: UILabel!
     
     func configure(with ticker: MarketModel) {
         var difference: Double

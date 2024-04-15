@@ -27,7 +27,7 @@ extension WatchListController:  UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let priceModel = watchlistModel.stockPrice[indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "watchlistCell", for: indexPath) as! WatchListTableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: Cells.watchListCell, for: indexPath) as! WatchListTableViewCell
         cell.configure(with: priceModel)
         return cell
     }

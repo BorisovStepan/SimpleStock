@@ -7,25 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2014AD04E1419826B4500958 /* Pods_SimpleProject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 935493BFD8C0F3181D46CAAD /* Pods_SimpleProject.framework */; };
+		C3174A762BB5CF3F000D0974 /* CoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A752BB5CF3F000D0974 /* CoreDataService.swift */; };
+		C3174A7D2BB5EB7F000D0974 /* EnumSwitcherWatchlist.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A7C2BB5EB7F000D0974 /* EnumSwitcherWatchlist.swift */; };
+		C3174A7F2BBC3BB3000D0974 /* WatchListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A7E2BBC3BB3000D0974 /* WatchListPresenter.swift */; };
+		C3174A812BBC4047000D0974 /* WatchListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A802BBC4047000D0974 /* WatchListTableViewCell.swift */; };
+		C3174A842BBF082F000D0974 /* Stock+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A822BBF082F000D0974 /* Stock+CoreDataClass.swift */; };
+		C3174A852BBF082F000D0974 /* Stock+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3174A832BBF082F000D0974 /* Stock+CoreDataProperties.swift */; };
+		C351D75B2BB1F6CA00D68419 /* Stock.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C351D75A2BB1F6CA00D68419 /* Stock.storyboard */; };
+		C351D75D2BB1F6F400D68419 /* StockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351D75C2BB1F6F400D68419 /* StockViewController.swift */; };
+		C351D7602BB1FAED00D68419 /* StockURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351D75F2BB1FAED00D68419 /* StockURLRequest.swift */; };
+		C351D7622BB1FB2500D68419 /* StockStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351D7612BB1FB2500D68419 /* StockStruct.swift */; };
+		C351D7642BB32A3900D68419 /* StockPriceStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351D7632BB32A3900D68419 /* StockPriceStruct.swift */; };
+		C351D7662BB32C3100D68419 /* StockInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351D7652BB32C3100D68419 /* StockInfoModel.swift */; };
+		C351D7682BB32C3E00D68419 /* StockPriceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351D7672BB32C3E00D68419 /* StockPriceModel.swift */; };
+		C351D76A2BB3313700D68419 /* StockPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C351D7692BB3313700D68419 /* StockPresenter.swift */; };
+		C38569202B977DD70008DF96 /* NewsURLRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385691F2B977DD70008DF96 /* NewsURLRequest.swift */; };
+		C38569222B977E600008DF96 /* StructNews.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38569212B977E600008DF96 /* StructNews.swift */; };
+		C38569242B978E6F0008DF96 /* NewsStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38569232B978E6F0008DF96 /* NewsStoryboard.storyboard */; };
+		C38569262B978EC80008DF96 /* Watchlist.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C38569252B978EC80008DF96 /* Watchlist.storyboard */; };
+		C38569282B9A3BF20008DF96 /* NewsModelStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38569272B9A3BF20008DF96 /* NewsModelStruct.swift */; };
+		C385692B2B9E22880008DF96 /* NewsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385692A2B9E22880008DF96 /* NewsController.swift */; };
+		C385692D2B9E22A20008DF96 /* WatchListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385692C2B9E22A20008DF96 /* WatchListController.swift */; };
+		C385692F2B9E236D0008DF96 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385692E2B9E236D0008DF96 /* TabController.swift */; };
+		C38569312BA0C09D0008DF96 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38569302BA0C09D0008DF96 /* NewsCell.swift */; };
+		C38569362BA0DA3D0008DF96 /* NewsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38569352BA0DA3D0008DF96 /* NewsPresenter.swift */; };
+		C385693A2BA3602D0008DF96 /* MarketUrlSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38569392BA3602D0008DF96 /* MarketUrlSession.swift */; };
+		C385693C2BA360AA0008DF96 /* MarketStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385693B2BA360AA0008DF96 /* MarketStruct.swift */; };
+		C385693E2BA363D50008DF96 /* MarketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385693D2BA363D50008DF96 /* MarketModel.swift */; };
+		C38569402BA36F8C0008DF96 /* MarketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C385693F2BA36F8C0008DF96 /* MarketTableViewCell.swift */; };
+		C38569462BAC9B690008DF96 /* WatchlistModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C38569442BAC9B690008DF96 /* WatchlistModel.xcdatamodeld */; };
+		C38569482BB0A7130008DF96 /* MarketPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38569472BB0A7130008DF96 /* MarketPresenter.swift */; };
+		C38640E62BC8470600E385DF /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38640E52BC8470600E385DF /* Constants.swift */; };
+		C38640E82BC857B900E385DF /* Func.swift in Sources */ = {isa = PBXBuildFile; fileRef = C38640E72BC857B900E385DF /* Func.swift */; };
 		C388B3F92B8E34B500488032 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3F82B8E34B500488032 /* AppDelegate.swift */; };
 		C388B3FB2B8E34B500488032 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3FA2B8E34B500488032 /* SceneDelegate.swift */; };
-		C388B3FD2B8E34B500488032 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3FC2B8E34B500488032 /* ViewController.swift */; };
+		C388B3FD2B8E34B500488032 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C388B3FC2B8E34B500488032 /* MainViewController.swift */; };
 		C388B4002B8E34B500488032 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C388B3FE2B8E34B500488032 /* Main.storyboard */; };
-		C388B4032B8E34B500488032 /* SimpleProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C388B4012B8E34B500488032 /* SimpleProject.xcdatamodeld */; };
 		C388B4052B8E34B600488032 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C388B4042B8E34B600488032 /* Assets.xcassets */; };
 		C388B4082B8E34B600488032 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C388B4062B8E34B600488032 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6FB4B558AC956E86C0A13E45 /* Pods-SimpleProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleProject.release.xcconfig"; path = "Target Support Files/Pods-SimpleProject/Pods-SimpleProject.release.xcconfig"; sourceTree = "<group>"; };
+		935493BFD8C0F3181D46CAAD /* Pods_SimpleProject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleProject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3174A752BB5CF3F000D0974 /* CoreDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataService.swift; sourceTree = "<group>"; };
+		C3174A7C2BB5EB7F000D0974 /* EnumSwitcherWatchlist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumSwitcherWatchlist.swift; sourceTree = "<group>"; };
+		C3174A7E2BBC3BB3000D0974 /* WatchListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListPresenter.swift; sourceTree = "<group>"; };
+		C3174A802BBC4047000D0974 /* WatchListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListTableViewCell.swift; sourceTree = "<group>"; };
+		C3174A822BBF082F000D0974 /* Stock+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stock+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		C3174A832BBF082F000D0974 /* Stock+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stock+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		C351D75A2BB1F6CA00D68419 /* Stock.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stock.storyboard; sourceTree = "<group>"; };
+		C351D75C2BB1F6F400D68419 /* StockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockViewController.swift; sourceTree = "<group>"; };
+		C351D75F2BB1FAED00D68419 /* StockURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockURLRequest.swift; sourceTree = "<group>"; };
+		C351D7612BB1FB2500D68419 /* StockStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockStruct.swift; sourceTree = "<group>"; };
+		C351D7632BB32A3900D68419 /* StockPriceStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPriceStruct.swift; sourceTree = "<group>"; };
+		C351D7652BB32C3100D68419 /* StockInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockInfoModel.swift; sourceTree = "<group>"; };
+		C351D7672BB32C3E00D68419 /* StockPriceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPriceModel.swift; sourceTree = "<group>"; };
+		C351D7692BB3313700D68419 /* StockPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPresenter.swift; sourceTree = "<group>"; };
+		C385691F2B977DD70008DF96 /* NewsURLRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsURLRequest.swift; sourceTree = "<group>"; };
+		C38569212B977E600008DF96 /* StructNews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StructNews.swift; sourceTree = "<group>"; };
+		C38569232B978E6F0008DF96 /* NewsStoryboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewsStoryboard.storyboard; sourceTree = "<group>"; };
+		C38569252B978EC80008DF96 /* Watchlist.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Watchlist.storyboard; sourceTree = "<group>"; };
+		C38569272B9A3BF20008DF96 /* NewsModelStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModelStruct.swift; sourceTree = "<group>"; };
+		C385692A2B9E22880008DF96 /* NewsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsController.swift; sourceTree = "<group>"; };
+		C385692C2B9E22A20008DF96 /* WatchListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchListController.swift; sourceTree = "<group>"; };
+		C385692E2B9E236D0008DF96 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
+		C38569302BA0C09D0008DF96 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		C38569352BA0DA3D0008DF96 /* NewsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsPresenter.swift; sourceTree = "<group>"; };
+		C38569392BA3602D0008DF96 /* MarketUrlSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketUrlSession.swift; sourceTree = "<group>"; };
+		C385693B2BA360AA0008DF96 /* MarketStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketStruct.swift; sourceTree = "<group>"; };
+		C385693D2BA363D50008DF96 /* MarketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketModel.swift; sourceTree = "<group>"; };
+		C385693F2BA36F8C0008DF96 /* MarketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketTableViewCell.swift; sourceTree = "<group>"; };
+		C38569452BAC9B690008DF96 /* WatchlistModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatchlistModel.xcdatamodel; sourceTree = "<group>"; };
+		C38569472BB0A7130008DF96 /* MarketPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketPresenter.swift; sourceTree = "<group>"; };
+		C38640E52BC8470600E385DF /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C38640E72BC857B900E385DF /* Func.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Func.swift; sourceTree = "<group>"; };
 		C388B3F52B8E34B500488032 /* SimpleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C388B3F82B8E34B500488032 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C388B3FA2B8E34B500488032 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C388B3FC2B8E34B500488032 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C388B3FC2B8E34B500488032 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		C388B3FF2B8E34B500488032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C388B4022B8E34B500488032 /* SimpleProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleProject.xcdatamodel; sourceTree = "<group>"; };
 		C388B4042B8E34B600488032 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C388B4072B8E34B600488032 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C388B4092B8E34B600488032 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7A62F701D45CCA1F744E6AD /* Pods-SimpleProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleProject.debug.xcconfig"; path = "Target Support Files/Pods-SimpleProject/Pods-SimpleProject.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +99,164 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2014AD04E1419826B4500958 /* Pods_SimpleProject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58B3F94F6F47F4E582573F17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				935493BFD8C0F3181D46CAAD /* Pods_SimpleProject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91CCE0DC4570BD04933AC8BE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C7A62F701D45CCA1F744E6AD /* Pods-SimpleProject.debug.xcconfig */,
+				6FB4B558AC956E86C0A13E45 /* Pods-SimpleProject.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C3174A772BB5D123000D0974 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C3174A822BBF082F000D0974 /* Stock+CoreDataClass.swift */,
+				C3174A832BBF082F000D0974 /* Stock+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C31FF6D52BCDA29400DCE56A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C351D7672BB32C3E00D68419 /* StockPriceModel.swift */,
+				C38569272B9A3BF20008DF96 /* NewsModelStruct.swift */,
+				C351D7652BB32C3100D68419 /* StockInfoModel.swift */,
+				C385693D2BA363D50008DF96 /* MarketModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C351D7572BB1F63600D68419 /* StockScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C351D75A2BB1F6CA00D68419 /* Stock.storyboard */,
+				C351D75C2BB1F6F400D68419 /* StockViewController.swift */,
+				C351D7692BB3313700D68419 /* StockPresenter.swift */,
+				C3174A7C2BB5EB7F000D0974 /* EnumSwitcherWatchlist.swift */,
+			);
+			path = StockScreen;
+			sourceTree = "<group>";
+		};
+		C351D75E2BB1FAB700D68419 /* Stock */ = {
+			isa = PBXGroup;
+			children = (
+				C351D75F2BB1FAED00D68419 /* StockURLRequest.swift */,
+				C351D7612BB1FB2500D68419 /* StockStruct.swift */,
+				C351D7632BB32A3900D68419 /* StockPriceStruct.swift */,
+			);
+			path = Stock;
+			sourceTree = "<group>";
+		};
+		C385691E2B977DB70008DF96 /* URLService */ = {
+			isa = PBXGroup;
+			children = (
+				C351D75E2BB1FAB700D68419 /* Stock */,
+				C38569382BA3600C0008DF96 /* Market */,
+				C38569372BA360010008DF96 /* News */,
+			);
+			path = URLService;
+			sourceTree = "<group>";
+		};
+		C38569292B9E225B0008DF96 /* MarketScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C388B3FE2B8E34B500488032 /* Main.storyboard */,
+				C388B3FC2B8E34B500488032 /* MainViewController.swift */,
+				C385693F2BA36F8C0008DF96 /* MarketTableViewCell.swift */,
+				C38569472BB0A7130008DF96 /* MarketPresenter.swift */,
+			);
+			path = MarketScreen;
+			sourceTree = "<group>";
+		};
+		C38569322BA0D5FA0008DF96 /* NewsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C38569232B978E6F0008DF96 /* NewsStoryboard.storyboard */,
+				C385692A2B9E22880008DF96 /* NewsController.swift */,
+				C38569302BA0C09D0008DF96 /* NewsCell.swift */,
+				C38569352BA0DA3D0008DF96 /* NewsPresenter.swift */,
+			);
+			path = NewsScreen;
+			sourceTree = "<group>";
+		};
+		C38569332BA0D6110008DF96 /* WatchListScreen */ = {
+			isa = PBXGroup;
+			children = (
+				C385692C2B9E22A20008DF96 /* WatchListController.swift */,
+				C38569252B978EC80008DF96 /* Watchlist.storyboard */,
+				C3174A7E2BBC3BB3000D0974 /* WatchListPresenter.swift */,
+				C3174A802BBC4047000D0974 /* WatchListTableViewCell.swift */,
+			);
+			path = WatchListScreen;
+			sourceTree = "<group>";
+		};
+		C38569342BA0D6780008DF96 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				C31FF6D52BCDA29400DCE56A /* Model */,
+				C38640E42BC846E700E385DF /* Enum */,
+				C3174A772BB5D123000D0974 /* Models */,
+				C385692E2B9E236D0008DF96 /* TabController.swift */,
+				C388B4042B8E34B600488032 /* Assets.xcassets */,
+				C388B3FA2B8E34B500488032 /* SceneDelegate.swift */,
+				C388B3F82B8E34B500488032 /* AppDelegate.swift */,
+				C3174A752BB5CF3F000D0974 /* CoreDataService.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		C38569372BA360010008DF96 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				C38569212B977E600008DF96 /* StructNews.swift */,
+				C385691F2B977DD70008DF96 /* NewsURLRequest.swift */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		C38569382BA3600C0008DF96 /* Market */ = {
+			isa = PBXGroup;
+			children = (
+				C38569392BA3602D0008DF96 /* MarketUrlSession.swift */,
+				C385693B2BA360AA0008DF96 /* MarketStruct.swift */,
+			);
+			path = Market;
+			sourceTree = "<group>";
+		};
+		C38640E42BC846E700E385DF /* Enum */ = {
+			isa = PBXGroup;
+			children = (
+				C38640E52BC8470600E385DF /* Constants.swift */,
+				C38640E72BC857B900E385DF /* Func.swift */,
+			);
+			path = Enum;
+			sourceTree = "<group>";
+		};
 		C388B3EC2B8E34B500488032 = {
 			isa = PBXGroup;
 			children = (
+				C38569442BAC9B690008DF96 /* WatchlistModel.xcdatamodeld */,
 				C388B3F72B8E34B500488032 /* SimpleProject */,
 				C388B3F62B8E34B500488032 /* Products */,
+				91CCE0DC4570BD04933AC8BE /* Pods */,
+				58B3F94F6F47F4E582573F17 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +271,14 @@
 		C388B3F72B8E34B500488032 /* SimpleProject */ = {
 			isa = PBXGroup;
 			children = (
-				C388B3F82B8E34B500488032 /* AppDelegate.swift */,
-				C388B3FA2B8E34B500488032 /* SceneDelegate.swift */,
-				C388B3FC2B8E34B500488032 /* ViewController.swift */,
-				C388B3FE2B8E34B500488032 /* Main.storyboard */,
-				C388B4042B8E34B600488032 /* Assets.xcassets */,
+				C38569342BA0D6780008DF96 /* Support */,
+				C38569332BA0D6110008DF96 /* WatchListScreen */,
+				C38569322BA0D5FA0008DF96 /* NewsScreen */,
+				C351D7572BB1F63600D68419 /* StockScreen */,
+				C38569292B9E225B0008DF96 /* MarketScreen */,
+				C385691E2B977DB70008DF96 /* URLService */,
 				C388B4062B8E34B600488032 /* LaunchScreen.storyboard */,
 				C388B4092B8E34B600488032 /* Info.plist */,
-				C388B4012B8E34B500488032 /* SimpleProject.xcdatamodeld */,
 			);
 			path = SimpleProject;
 			sourceTree = "<group>";
@@ -77,6 +290,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C388B40C2B8E34B600488032 /* Build configuration list for PBXNativeTarget "SimpleProject" */;
 			buildPhases = (
+				ED156AF3709B1194857A0977 /* [CP] Check Pods Manifest.lock */,
 				C388B3F12B8E34B500488032 /* Sources */,
 				C388B3F22B8E34B500488032 /* Frameworks */,
 				C388B3F32B8E34B500488032 /* Resources */,
@@ -130,21 +344,77 @@
 			files = (
 				C388B4082B8E34B600488032 /* LaunchScreen.storyboard in Resources */,
 				C388B4052B8E34B600488032 /* Assets.xcassets in Resources */,
+				C38569242B978E6F0008DF96 /* NewsStoryboard.storyboard in Resources */,
+				C351D75B2BB1F6CA00D68419 /* Stock.storyboard in Resources */,
+				C38569262B978EC80008DF96 /* Watchlist.storyboard in Resources */,
 				C388B4002B8E34B500488032 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ED156AF3709B1194857A0977 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C388B3F12B8E34B500488032 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C388B3FD2B8E34B500488032 /* ViewController.swift in Sources */,
+				C385693C2BA360AA0008DF96 /* MarketStruct.swift in Sources */,
+				C351D7642BB32A3900D68419 /* StockPriceStruct.swift in Sources */,
+				C385692B2B9E22880008DF96 /* NewsController.swift in Sources */,
+				C38569482BB0A7130008DF96 /* MarketPresenter.swift in Sources */,
+				C38569202B977DD70008DF96 /* NewsURLRequest.swift in Sources */,
+				C351D7602BB1FAED00D68419 /* StockURLRequest.swift in Sources */,
+				C388B3FD2B8E34B500488032 /* MainViewController.swift in Sources */,
+				C385692D2B9E22A20008DF96 /* WatchListController.swift in Sources */,
+				C38640E62BC8470600E385DF /* Constants.swift in Sources */,
+				C3174A812BBC4047000D0974 /* WatchListTableViewCell.swift in Sources */,
+				C351D7682BB32C3E00D68419 /* StockPriceModel.swift in Sources */,
+				C385693E2BA363D50008DF96 /* MarketModel.swift in Sources */,
+				C351D75D2BB1F6F400D68419 /* StockViewController.swift in Sources */,
+				C385693A2BA3602D0008DF96 /* MarketUrlSession.swift in Sources */,
+				C351D7662BB32C3100D68419 /* StockInfoModel.swift in Sources */,
 				C388B3F92B8E34B500488032 /* AppDelegate.swift in Sources */,
+				C3174A762BB5CF3F000D0974 /* CoreDataService.swift in Sources */,
+				C38640E82BC857B900E385DF /* Func.swift in Sources */,
+				C385692F2B9E236D0008DF96 /* TabController.swift in Sources */,
 				C388B3FB2B8E34B500488032 /* SceneDelegate.swift in Sources */,
-				C388B4032B8E34B500488032 /* SimpleProject.xcdatamodeld in Sources */,
+				C3174A7D2BB5EB7F000D0974 /* EnumSwitcherWatchlist.swift in Sources */,
+				C3174A7F2BBC3BB3000D0974 /* WatchListPresenter.swift in Sources */,
+				C3174A842BBF082F000D0974 /* Stock+CoreDataClass.swift in Sources */,
+				C351D76A2BB3313700D68419 /* StockPresenter.swift in Sources */,
+				C38569462BAC9B690008DF96 /* WatchlistModel.xcdatamodeld in Sources */,
+				C38569362BA0DA3D0008DF96 /* NewsPresenter.swift in Sources */,
+				C38569402BA36F8C0008DF96 /* MarketTableViewCell.swift in Sources */,
+				C38569282B9A3BF20008DF96 /* NewsModelStruct.swift in Sources */,
+				C38569222B977E600008DF96 /* StructNews.swift in Sources */,
+				C3174A852BBF082F000D0974 /* Stock+CoreDataProperties.swift in Sources */,
+				C351D7622BB1FB2500D68419 /* StockStruct.swift in Sources */,
+				C38569312BA0C09D0008DF96 /* NewsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,9 +556,11 @@
 		};
 		C388B40D2B8E34B600488032 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7A62F701D45CCA1F744E6AD /* Pods-SimpleProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -313,9 +585,11 @@
 		};
 		C388B40E2B8E34B600488032 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FB4B558AC956E86C0A13E45 /* Pods-SimpleProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -362,13 +636,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		C388B4012B8E34B500488032 /* SimpleProject.xcdatamodeld */ = {
+		C38569442BAC9B690008DF96 /* WatchlistModel.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				C388B4022B8E34B500488032 /* SimpleProject.xcdatamodel */,
+				C38569452BAC9B690008DF96 /* WatchlistModel.xcdatamodel */,
 			);
-			currentVersion = C388B4022B8E34B500488032 /* SimpleProject.xcdatamodel */;
-			path = SimpleProject.xcdatamodeld;
+			currentVersion = C38569452BAC9B690008DF96 /* WatchlistModel.xcdatamodel */;
+			path = WatchlistModel.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

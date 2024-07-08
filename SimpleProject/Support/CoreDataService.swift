@@ -28,8 +28,4 @@ final class CoreDataService {
             }
         }
     }
-    
-    static func fetchRequest() {
-        let fetchRequest = Stock.fetchRequest()
-    }
 }

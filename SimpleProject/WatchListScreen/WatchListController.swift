@@ -3,7 +3,7 @@ import UIKit
 final class WatchListController: UIViewController {
     
     @IBOutlet weak private var watchlistTable: UITableView!
-    private var watchlistModel = WatchListViewModel()
+    private var watchlistModel = WatchListPresenter()
     weak var delegate: StockViewControllerDelegate?
     
     override func viewWillAppear(_ animated: Bool) {
@@ -14,7 +14,6 @@ final class WatchListController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.watchlistTable.reloadData()
         self.watchlistTable.dataSource = self
         self.watchlistTable.delegate = self
     }
@@ -27,7 +26,7 @@ extension WatchListController:  UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let priceModel = watchlistModel.stockPrice[indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: Cells.watchListCell, for: indexPath) as! WatchListTableViewCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: Cells.watchListCell, for: indexPath) as? WatchListTableViewCell else { return .init() }
         cell.configure(with: priceModel)
         return cell
     }
@@ -54,5 +53,4 @@ extension WatchListController: StockViewControllerDelegate {
         watchlistModel.getStocks()
         watchlistTable.reloadData()
     }
-    
 }

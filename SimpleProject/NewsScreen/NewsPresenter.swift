@@ -1,6 +1,6 @@
 import Foundation
 
-final class NewsViewModel {
+final class NewsPresenter {
     
     var news = [NewsModel]() {
         didSet {

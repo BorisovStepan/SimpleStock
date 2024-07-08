@@ -1,7 +1,7 @@
 
 import Foundation
 
-final class MarketViewModel {
+final class MarketPresenter {
     
     var market = [MarketModel]() {
         didSet {

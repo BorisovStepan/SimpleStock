@@ -1,6 +1,6 @@
 import Foundation
 
-final class StockViewModel {
+final class StockPresenter {
     var stock: String?
     
     var stockPrice = [PriceModel]() {

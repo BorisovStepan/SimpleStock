@@ -9,6 +9,7 @@ final class WatchListTableViewCell: UITableViewCell {
     func configure(with price: Stock) {
         if price.differencePrice < 0 {
             differenceLabel.textColor = .red
+            differenceLabel.viewPrintFormatter()
             differenceLabel.text = String(format: "%.2f", price.differencePrice)
         } else {
             differenceLabel.textColor = .systemGreen

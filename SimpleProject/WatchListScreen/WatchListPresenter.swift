@@ -1,7 +1,7 @@
 
 import Foundation
 
-final class WatchListViewModel {
+final class WatchListPresenter {
     var date: String?
     
     var stockPrice = [Stock]() {

@@ -13,7 +13,7 @@ final class StockViewController: UIViewController {
     @IBOutlet weak private var differencePrice: UILabel!
     @IBOutlet weak private var closePrice: UILabel!
     @IBOutlet weak private var openPrice: UILabel!
-    let stockModel = StockViewModel()
+    let stockModel = StockPresenter()
     private var state: WatchlistToDo?
     weak var delegate: StockViewControllerDelegate?
     

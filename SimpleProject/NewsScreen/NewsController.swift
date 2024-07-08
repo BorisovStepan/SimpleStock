@@ -5,7 +5,7 @@ final class NewsController: UIViewController {
     
     @IBOutlet weak private var tableNews: UITableView!
     @IBOutlet weak private  var xsxs: UILabel!
-    private var newsModel = NewsViewModel()
+    private var newsModel = NewsPresenter()
     private let activityIndicator = UIActivityIndicatorView(style: .large)
     
     override func viewDidLoad() {
@@ -41,7 +41,7 @@ extension NewsController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let viewModel = newsModel.news[indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: Cells.newsCell, for: indexPath) as! NewsCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: Cells.newsCell, for: indexPath) as? NewsCell else { return .init() }
         cell.configure(with: viewModel)
         return cell
     }

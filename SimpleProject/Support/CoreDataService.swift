@@ -17,7 +17,7 @@ final class CoreDataService {
         return container
     }()
     
-    static func saveContext () {
+    static func saveContext() {
         let context = persistentContainer.viewContext
         if context.hasChanges {
             do {
@@ -27,5 +27,9 @@ final class CoreDataService {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+    static func fetchRequest() {
+        let fetchRequest = Stock.fetchRequest()
     }
 }

@@ -4,7 +4,7 @@ final class MainViewController: UIViewController {
     
     @IBOutlet weak private var tableMarket: UITableView!
     @IBOutlet weak private var searchBar: UISearchBar!
-    private var marketModel = MarketViewModel()
+    private var marketModel = MarketPresenter()
     private var filteredData = [MarketModel]()
     private var isSearching = false
     private let activityIndicator = UIActivityIndicatorView(style: .large)

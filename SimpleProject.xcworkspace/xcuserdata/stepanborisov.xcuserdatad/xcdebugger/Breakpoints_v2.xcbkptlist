@@ -82,53 +82,6 @@
             endingLineNumber = "7"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4381C2DF-15D5-4CB4-BCD3-87753A385411 - e7988d54c52f2e3a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.NetworkServiceNews.loadData(completion: (Swift.Array&lt;SimpleProject.NewsArticle&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/URLService/NewsURLRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
-                  offsetFromSymbolStart = "316">
-               </Location>
-               <Location
-                  uuid = "4381C2DF-15D5-4CB4-BCD3-87753A385411 - e7988d54c52f2e3a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.NetworkServiceNews.loadData(completion: (Swift.Array&lt;SimpleProject.NewsArticle&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/URLService/NewsURLRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
-                  offsetFromSymbolStart = "400">
-               </Location>
-               <Location
-                  uuid = "4381C2DF-15D5-4CB4-BCD3-87753A385411 - e7988d54c52f2e3a"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.NetworkServiceNews.loadData(completion: (Swift.Array&lt;SimpleProject.NewsArticle&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/URLService/NewsURLRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "7"
-                  endingLineNumber = "7"
-                  offsetFromSymbolStart = "876">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -177,38 +130,6 @@
             endingLineNumber = "14"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "4996B0D7-0BED-4355-B799-344B2C252268 - f658acb2880a454"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleProject.NetworkServiceNews.loadData(completion: (SimpleProject.NewsArticle) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/URLService/NewsURLRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "608">
-               </Location>
-               <Location
-                  uuid = "4996B0D7-0BED-4355-B799-344B2C252268 - f658acb2880a454"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleProject.NetworkServiceNews.loadData(completion: (SimpleProject.NewsArticle) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/URLService/NewsURLRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "14"
-                  endingLineNumber = "14"
-                  offsetFromSymbolStart = "664">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -337,38 +258,6 @@
             endingLineNumber = "19"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "0C6FC71B-06EE-4F07-8124-E12FA05272ED - 7a0877e6f7972b38"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleProject.NetworkServiceNews.loadData(completion: (Swift.Array&lt;SimpleProject.NewsModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/URLService/NewsURLRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "1020">
-               </Location>
-               <Location
-                  uuid = "0C6FC71B-06EE-4F07-8124-E12FA05272ED - 7a0877e6f7972b38"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleProject.NetworkServiceNews.loadData(completion: (Swift.Array&lt;SimpleProject.NewsModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/URLService/NewsURLRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "19"
-                  endingLineNumber = "19"
-                  offsetFromSymbolStart = "1344">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -385,53 +274,6 @@
             endingLineNumber = "8"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "5BF6DE68-71FD-448E-8755-3402C8420956 - cc572aad655e9125"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.MarketNetworkService.loadData(completion: (Swift.Array&lt;SimpleProject.MarketModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/URLService/Market/MarketUrlSession.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "364">
-               </Location>
-               <Location
-                  uuid = "5BF6DE68-71FD-448E-8755-3402C8420956 - cc572aad655e9125"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.MarketNetworkService.loadData(completion: (Swift.Array&lt;SimpleProject.MarketModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/URLService/Market/MarketUrlSession.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "660">
-               </Location>
-               <Location
-                  uuid = "5BF6DE68-71FD-448E-8755-3402C8420956 - cc572aad655e9125"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.MarketNetworkService.loadData(completion: (Swift.Array&lt;SimpleProject.MarketModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/URLService/Market/MarketUrlSession.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "22"
-                  endingLineNumber = "22"
-                  offsetFromSymbolStart = "1236">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -464,38 +306,6 @@
             endingLineNumber = "12"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "03F8FBC2-2B67-4EC7-8E96-E3DC0617B031 - 8cf3cd117f97abbe"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleProject.MarketNetworkService.loadData(completion: (Swift.Array&lt;SimpleProject.MarketModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/URLService/Market/MarketUrlSession.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "608">
-               </Location>
-               <Location
-                  uuid = "03F8FBC2-2B67-4EC7-8E96-E3DC0617B031 - 8cf3cd117f97abbe"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleProject.MarketNetworkService.loadData(completion: (Swift.Array&lt;SimpleProject.MarketModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/URLService/Market/MarketUrlSession.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "664">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -528,38 +338,6 @@
             endingLineNumber = "15"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "789B3C31-4001-40F5-8172-6CA6C9BB2B8B - 8cf3cd117f97aa23"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleProject.MarketNetworkService.loadData(completion: (Swift.Array&lt;SimpleProject.MarketModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/URLService/Market/MarketUrlSession.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "856">
-               </Location>
-               <Location
-                  uuid = "789B3C31-4001-40F5-8172-6CA6C9BB2B8B - 17f4774baad4f48c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (SimpleProject.StockInfo) -&gt; SimpleProject.MarketModel in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleProject.MarketNetworkService.loadData(completion: (Swift.Array&lt;SimpleProject.MarketModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/URLService/Market/MarketUrlSession.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "33"
-                  endingLineNumber = "33"
-                  offsetFromSymbolStart = "36">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -588,8 +366,8 @@
             filePath = "SimpleProject/Support/AppDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
             landmarkName = "application(_:didFinishLaunchingWithOptions:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -604,8 +382,8 @@
             filePath = "SimpleProject/Support/AppDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "18"
-            endingLineNumber = "18"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
             landmarkName = "application(_:didFinishLaunchingWithOptions:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -640,38 +418,6 @@
             endingLineNumber = "12"
             landmarkName = "loadData(completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "8A05BDD2-BEEE-4376-BCA1-A564C3AFE480 - 1312ef32c9bbeadf"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleProject.NetworkServiceNews.loadData(completion: (Swift.Array&lt;SimpleProject.NewsModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/URLService/News/NewsURLRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "856">
-               </Location>
-               <Location
-                  uuid = "8A05BDD2-BEEE-4376-BCA1-A564C3AFE480 - af942cdd8feb8688"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (SimpleProject.Results) -&gt; SimpleProject.NewsModel in closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleProject.NetworkServiceNews.loadData(completion: (Swift.Array&lt;SimpleProject.NewsModel&gt;) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/URLService/News/NewsURLRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "88">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -688,38 +434,6 @@
             endingLineNumber = "16"
             landmarkName = "load()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "127B7114-548C-45FB-B7A2-E95338E367EF - 874964373975bc2c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.NewsViewModel.load() -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/NewsScreen/NewsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  uuid = "127B7114-548C-45FB-B7A2-E95338E367EF - 5d6c7957329ac14"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;SimpleProject.NewsModel&gt;) -&gt; () in SimpleProject.NewsViewModel.load() -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/NewsScreen/NewsViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -764,8 +478,8 @@
             filePath = "SimpleProject/Support/AppDelegate.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "application(_:configurationForConnecting:options:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -800,38 +514,6 @@
             endingLineNumber = "26"
             landmarkName = "loadStockPrice(stock:completion:)"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "A85F522C-3BA7-48A9-962C-8C6F68468DEE - 4d8b98597d4365f1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.StockNetworkService.loadStockPrice(completion: (SimpleProject.PriceModel) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/URLService/Stock/StockURLRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "29"
-                  endingLineNumber = "29"
-                  offsetFromSymbolStart = "1292">
-               </Location>
-               <Location
-                  uuid = "A85F522C-3BA7-48A9-962C-8C6F68468DEE - c1bc8e25570ab1f1"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in SimpleProject.StockNetworkService.loadStockPrice(completion: (SimpleProject.PriceModel) -&gt; ()) -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/URLService/Stock/StockURLRequest.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "30"
-                  endingLineNumber = "30"
-                  offsetFromSymbolStart = "160">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -940,8 +622,8 @@
             filePath = "SimpleProject/WatchListScreen/WatchListController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -956,8 +638,8 @@
             filePath = "SimpleProject/WatchListScreen/WatchListController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "37"
-            endingLineNumber = "37"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
             landmarkName = "tableView(_:didSelectRowAt:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -988,8 +670,8 @@
             filePath = "SimpleProject/WatchListScreen/WatchListController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "55"
-            endingLineNumber = "55"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "updateTable()"
             landmarkType = "7">
          </BreakpointContent>
@@ -1072,38 +754,6 @@
             endingLineNumber = "17"
             landmarkName = "load()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "7401533A-A3CF-49FA-8CCD-FF6574FACC58 - 5b6179567d5c2b6d"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "SimpleProject.MarketViewModel.load() -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/MarketScreen/MarketViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "32">
-               </Location>
-               <Location
-                  uuid = "7401533A-A3CF-49FA-8CCD-FF6574FACC58 - e6a2fbc212d64a3c"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Array&lt;SimpleProject.MarketModel&gt;) -&gt; () in SimpleProject.MarketViewModel.load() -&gt; ()"
-                  moduleName = "SimpleProject"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/stepanborisov/Documents/IT%20Academy/Pet%20Project/SimpleStock/SimpleProject/SimpleProject/MarketScreen/MarketViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "17"
-                  endingLineNumber = "17"
-                  offsetFromSymbolStart = "32">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

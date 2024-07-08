@@ -1,7 +1,5 @@
 import Foundation
 
-import Foundation
-
 final class MarketNetworkService {
     
     func loadData(completion: @escaping([MarketModel]) -> ()) {

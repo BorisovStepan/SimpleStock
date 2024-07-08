@@ -5,7 +5,7 @@ final class NewsController: UIViewController {
     
     @IBOutlet weak private var tableNews: UITableView!
     @IBOutlet weak private  var xsxs: UILabel!
-    private var newsModel = NewsPresenter()
+    private var newsPresenter = NewsPresenter()
     private let activityIndicator = UIActivityIndicatorView(style: .large)
     
     override func viewDidLoad() {
@@ -24,8 +24,8 @@ final class NewsController: UIViewController {
     }
     
     private func stopAnimation() {
-        newsModel.load()
-        newsModel.newsDidChange = {
+        newsPresenter.load()
+        newsPresenter.newsDidChange = {
             DispatchQueue.main.async { [weak self] in
                 self?.activityIndicator.stopAnimating()
                 self?.tableNews.reloadData()
@@ -36,11 +36,11 @@ final class NewsController: UIViewController {
 
 extension NewsController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return newsModel.news.count
+        return newsPresenter.news.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let viewModel = newsModel.news[indexPath.row]
+        let viewModel = newsPresenter.news[indexPath.row]
         guard let cell = tableView.dequeueReusableCell(withIdentifier: Cells.newsCell, for: indexPath) as? NewsCell else { return .init() }
         cell.configure(with: viewModel)
         return cell
@@ -50,7 +50,7 @@ extension NewsController: UITableViewDataSource {
 extension NewsController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        let post = newsModel.news[indexPath.row]
+        let post = newsPresenter.news[indexPath.row]
         guard let url = URL(string: post.url) else { return }
         let vc = SFSafariViewController(url: url)
         present(vc, animated: true, completion: nil)

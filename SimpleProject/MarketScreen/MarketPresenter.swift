@@ -11,7 +11,11 @@ final class MarketPresenter {
     
     var marketDidChange: (() -> Void)?
     
-    let network = MarketNetworkService()
+    let network: MarketNetworkService
+    
+    init() {
+        self.network = MarketNetworkService()
+    }
     
     func load() {
         network.loadData { [weak self] newData in

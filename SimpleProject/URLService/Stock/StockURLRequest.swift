@@ -1,5 +1,6 @@
 
 import Foundation
+
 final class StockNetworkService {
     
     func loadStockInfo(stock: String?, completion: @escaping(StockInfoMoodel) -> ()) {

@@ -10,7 +10,11 @@ final class NewsPresenter {
     
     var newsDidChange: (() -> Void)?
     
-    private let network = NetworkServiceNews()
+    private let network: NetworkServiceNews
+    
+    init() {
+        self.network = NetworkServiceNews()
+    }
     
     func load() {
         network.loadData() { [weak self] newNews in

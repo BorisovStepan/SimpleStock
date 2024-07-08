@@ -13,7 +13,7 @@ final class StockViewController: UIViewController {
     @IBOutlet weak private var differencePrice: UILabel!
     @IBOutlet weak private var closePrice: UILabel!
     @IBOutlet weak private var openPrice: UILabel!
-    let stockModel = StockPresenter()
+    let stockPresenter = StockPresenter()
     private var state: WatchlistToDo?
     weak var delegate: StockViewControllerDelegate?
     
@@ -24,24 +24,24 @@ final class StockViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        stockModel.loadPrice()
-        stockModel.loadInfo()
+        stockPresenter.loadPrice()
+        stockPresenter.loadInfo()
         updateInfo()
     }
     
     private func configureStockInfo() {
-        tickerLabel.text = stockModel.stockInfo.first?.ticker
-        nameLabel.text = stockModel.stockInfo.first?.name
-        descriptionLabel.text = stockModel.stockInfo.first?.description
+        tickerLabel.text = stockPresenter.stockInfo.first?.ticker
+        nameLabel.text = stockPresenter.stockInfo.first?.name
+        descriptionLabel.text = stockPresenter.stockInfo.first?.description
     }
     
     private func updateInfo() {
-        stockModel.stockInfoDidChange = {
+        stockPresenter.stockInfoDidChange = {
             DispatchQueue.main.async { [weak self] in
                 self?.configureStockInfo()
             }
         }
-        stockModel.stockPriceDidChange = {
+        stockPresenter.stockPriceDidChange = {
             DispatchQueue.main.async { [weak self] in
                 self?.configurePriceInfo()
             }
@@ -49,7 +49,7 @@ final class StockViewController: UIViewController {
     }
     
     private func checkCoreData() {
-        if stockModel.checkCoreData() {
+        if stockPresenter.checkCoreData() {
             state = .delete
             addStockButton.setImage(Icons.heartFill, for: .normal)
         } else {
@@ -59,29 +59,23 @@ final class StockViewController: UIViewController {
     }
     
     private func configurePriceInfo() {
-        closePrice.text = String(self.stockModel
-            .stockPrice.first?.close ?? 0.00)
-        openPrice.text = String(self.stockModel
-            .stockPrice.first?.open ?? 0.00)
-        let difference = stockModel.calcDifference()
-        if difference > 0 {
-            differencePrice.textColor = .green
-            differencePrice.text = "+" + String(format: "%.2f", difference)
-        } else {
-            differencePrice.textColor = .red
-            differencePrice.text = String(format: "%.2f", difference)
-        }
+        closePrice.text = stockPresenter.configurePrice(value: self.stockPresenter
+            .stockPrice.first?.close)
+        openPrice.text = stockPresenter.configurePrice(value: self.stockPresenter
+            .stockPrice.first?.open)
+        differencePrice.text = stockPresenter.calcDifference().0
+        differencePrice.textColor = stockPresenter.calcDifference().1
     }
     
     @IBAction private func pressAddStockButton(_ sender: Any) {
         switch state {
         case .delete :
-            stockModel.deleteData()
+            stockPresenter.deleteData()
             delegate?.updateTable()
             state = .add
             addStockButton.setImage(Icons.heart, for: .normal)
         case .add :
-            stockModel.addDataToCore()
+            stockPresenter.addDataToCore()
             delegate?.updateTable()
             state = .delete
             addStockButton.setImage(Icons.heartFill, for: .normal)

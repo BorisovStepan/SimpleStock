@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 final class StockPresenter {
     var stock: String?
@@ -18,7 +18,11 @@ final class StockPresenter {
     var stockPriceDidChange: (() -> Void)?
     var stockInfoDidChange: (() -> Void)?
     
-    private let network = StockNetworkService()
+    private let network: StockNetworkService
+    
+    init() {
+        self.network = StockNetworkService()
+    }
     
     func loadPrice() {
         network.loadStockPrice(stock: stock) { [weak self] newData in
@@ -43,7 +47,7 @@ final class StockPresenter {
         context.perform { [self] in
             let newStock = Stock(context: context)
             newStock.openPrice = stockPrice.first?.open ?? 0.00
-            newStock.differencePrice = calcDifference()
+            newStock.differencePrice = calcDifference().2
             newStock.stockName = stock
             CoreDataService.saveContext()
         }
@@ -73,10 +77,20 @@ final class StockPresenter {
         }
     }
     
-    func calcDifference() -> Double {
+    func calcDifference() -> (String, UIColor, Double) {
         let openPrice = stockPrice.first?.open ?? 0.00
         let closePrice = stockPrice.first?.close ?? 0.00
         let difference = closePrice - openPrice
-        return difference
+        if difference > 0 {
+            let stringValue = "+" + String(format: "%.2f", difference)
+            return (stringValue, .green, difference)
+        } else {
+            let stringValue = String(format: "%.2f", difference)
+            return (stringValue, .red, difference)
+        }
+    }
+    
+    func configurePrice(value: Double?) -> String {
+        return String(value ?? 0.00)
     }
 }

@@ -4,7 +4,7 @@ final class MainViewController: UIViewController {
     
     @IBOutlet weak private var tableMarket: UITableView!
     @IBOutlet weak private var searchBar: UISearchBar!
-    private var marketModel = MarketPresenter()
+    private var marketPresenter = MarketPresenter()
     private var filteredData = [MarketModel]()
     private var isSearching = false
     private let activityIndicator = UIActivityIndicatorView(style: .large)
@@ -13,7 +13,7 @@ final class MainViewController: UIViewController {
         super.viewDidLoad()
         searchBar.delegate = self
         animation()
-        marketModel.load()
+        marketPresenter.load()
         stopAnimation()
         tableMarket.delegate = self
         tableMarket.dataSource = self
@@ -26,7 +26,7 @@ final class MainViewController: UIViewController {
     }
     
     private func stopAnimation() {
-        marketModel.marketDidChange = {
+        marketPresenter.marketDidChange = {
             DispatchQueue.main.async { [weak self] in
                 self?.activityIndicator.stopAnimating()
                 self?.tableMarket.reloadData()
@@ -40,7 +40,7 @@ extension MainViewController: UITableViewDataSource {
         if isSearching {
             return filteredData.count
         } else {
-            return marketModel.market.count
+            return marketPresenter.market.count
         }
     }
     
@@ -50,7 +50,7 @@ extension MainViewController: UITableViewDataSource {
             let viewModel = filteredData[indexPath.row]
             cell.configure(with: viewModel)
         } else {
-            let viewModel = marketModel.market[indexPath.row]
+            let viewModel = marketPresenter.market[indexPath.row]
             cell.configure(with: viewModel)
         }
         return cell
@@ -63,13 +63,13 @@ extension MainViewController: UITableViewDelegate {
         if isSearching {
             let stock = filteredData[indexPath.row]
             if let stockVC = UIStoryboard(name: ConstantsVC.stockVC.0, bundle: nil).instantiateViewController(withIdentifier: ConstantsVC.stockVC.1) as? StockViewController {
-                stockVC.stockModel.stock = stock.stockName
+                stockVC.stockPresenter.stock = stock.stockName
                 self.present(stockVC, animated: true)
             }
         } else {
-            let stock = marketModel.market[indexPath.row]
+            let stock = marketPresenter.market[indexPath.row]
             if let stockVC = UIStoryboard(name: ConstantsVC.stockVC.0, bundle: nil).instantiateViewController(withIdentifier: ConstantsVC.stockVC.1) as? StockViewController {
-                stockVC.stockModel.stock = stock.stockName
+                stockVC.stockPresenter.stock = stock.stockName
                 self.present(stockVC, animated: true)
             }
         }
@@ -88,7 +88,7 @@ extension MainViewController: UISearchBarDelegate {
             tableMarket.reloadData()
         } else {
             isSearching = true
-            filteredData = marketModel.market.filter({$0.stockName.contains(searchBar.text ?? "")})
+            filteredData = marketPresenter.market.filter({$0.stockName.contains(searchBar.text ?? "")})
             tableMarket.reloadData()
         }
     }

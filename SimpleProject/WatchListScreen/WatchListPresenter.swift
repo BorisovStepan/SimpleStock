@@ -22,8 +22,6 @@ final class WatchListPresenter {
     let network = StockNetworkService()
     
     func getStocks() {
-        let request = Stock.fetchRequest()
-        let stocks = try? CoreDataService.context.fetch(request)
-        self.stockPrice = stocks ?? [Stock]()
+        self.stockPrice = CoreDataService.fetchData()
     }
 }

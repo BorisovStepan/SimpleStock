@@ -2,7 +2,6 @@
 import CoreData
 
 final class CoreDataService {
-    
     static var context: NSManagedObjectContext {
         return persistentContainer.viewContext
     }
@@ -27,5 +26,11 @@ final class CoreDataService {
                 fatalError("Unresolved error \(nserror), \(nserror.userInfo)")
             }
         }
+    }
+    
+    static func fetchData() -> [Stock] {
+        let request = Stock.fetchRequest()
+        guard let stocks = try? CoreDataService.context.fetch(request) else { return .init() }
+        return stocks
     }
 }
